@@ -4,9 +4,9 @@
 	width="<%= config['width'] %>"
 	height="<%= config['height'] %>"
 	viewBox="0 0 <%= config['width'] %> 8<%= config['height'] %>"
-	enable-background="new 0 0 <%= config['width'] %> <%= config['height'] %>" 
+	enable-background="new 0 0 <%= config['width'] %> <%= config['height'] %>"
 	xml:space="preserve">
-<g id="character">
+<g id="character-<%= id %>">
 	<% pixels.each do |row| %>
 		<% row.each do |column| %>
 			<% if column['active'] %>
@@ -14,7 +14,7 @@
 					<rect x="<%= column['x'] %>" y="<%= column['y'] %>" fill="<%= column['color'] %>" width="75" height="90"/>
 				</g>
 			<% end %>
-		<% end %>		
+		<% end %>
 	<% end %>
 </g>
 </svg>

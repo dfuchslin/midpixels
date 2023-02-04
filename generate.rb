@@ -1,6 +1,6 @@
 require 'yaml'
 require 'erb'
- 
+
 config = YAML.load(File.open('svg-conf.yml'))
 characters = YAML.load(File.open('characters.yml'))
 
@@ -26,7 +26,7 @@ characters.each do |character|
 		i+=1
 	end
 
-	template = ERB.new(File.new('mid-pixels.svg.erb').read, nil, '<>')
+	template = ERB.new(File.new('mid-pixels.svg.erb').read, trim_mode: '%<>')
 	filename = 'out/%03d.svg' % id
 	puts "Created character #{desc} in file #{filename}"
 	File.open(filename, 'w') do |f|
@@ -35,7 +35,7 @@ characters.each do |character|
 
 end
 
-template = ERB.new(File.new('index.erb').read, nil, '<>')
+template = ERB.new(File.new('index.erb').read, trim_mode: '%<>')
 filename = 'out/index.html'
 puts "Created #{filename}"
 File.open(filename, 'w') do |f|
