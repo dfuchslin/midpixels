@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	width="<%= config['width'] %>"
+	height="<%= config['height'] %>"
+	viewBox="0 0 <%= config['width'] %> 8<%= config['height'] %>"
+	enable-background="new 0 0 <%= config['width'] %> <%= config['height'] %>" 
+	xml:space="preserve">
+<g id="character">
+	<% pixels.each do |row| %>
+		<% row.each do |column| %>
+			<% if column['active'] %>
+				<g>
+					<rect x="<%= column['x'] %>" y="<%= column['y'] %>" fill="<%= column['color'] %>" width="75" height="90"/>
+				</g>
+			<% end %>
+		<% end %>		
+	<% end %>
+</g>
+</svg>
