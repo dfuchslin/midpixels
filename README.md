@@ -15,7 +15,7 @@ Prerequisites:
 
 ```bash
 npm install
-npm run start
+npm run build
 ```
 
 Individual svg files will be created in the `svg` directory. Usable font files will be created in the `dist` directory. A sample/preview page is also created in the `dist` directory.
