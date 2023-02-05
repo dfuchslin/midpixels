@@ -1236,6 +1236,7 @@ export default [
   },
   {
     id: 127,
+    codepoint: 1127,
     desc: 'small arrow left',
     pixels: [
       [0, 0, 0, 0, 0],
@@ -1418,6 +1419,7 @@ export default [
   },
   {
     id: 173,
+    codepoint: 1173,
     desc: 'up arrow',
     pixels: [
       [0, 0, 1, 0, 0],

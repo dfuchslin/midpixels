@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang='en'>
 
 <head>
@@ -191,6 +192,11 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
+    .unicode-icon .iconfont,
+    .unicode-icon .unicode {
+      white-space: pre;
+    }
+
   </style>
 </head>
 
@@ -209,16 +215,22 @@
   </div>
   <div class='icons'>
     <ul>
-      {{#each config.characters}}
-        <li class='unicode-icon'><span class='iconfont'>&#{{this.id}};</span>
-          <h4>{{this.id}}</h4><span class='unicode'>&#{{this.id}};</span>
+      {{#each config.characters as | character |}}
+        {{#with character.codepoint}}
+          <li class='unicode-icon'><span class='iconfont'>&#{{character.codepoint}};</span>
+            <h4>{{character.id}} ({{character.codepoint}})</h4><span class='unicode'>&#{{character.codepoint}};</span>
+          </li>
+      {{else}}
+        <li class='unicode-icon'><span class='iconfont'>&#{{character.id}};</span>
+          <h4>{{character.id}}</h4><span class='unicode'>&#{{character.id}};</span>
         </li>
+        {{/with}}
       {{/each}}
     </ul>
   </div>
 
   <div class='footer'>
-    Licensed under MIT.
+    Licensed under MIT.<br />
     <a target='_blank' href='https://github.com/dfuchslin/midpixels'>https://github.com/dfuchslin/midpixels</a>
     <div><a target='_blank' href='https://github.com/jaywcjlove/svgtofont'>inspired by svgtofont</a></div>
   </div>
