@@ -30,6 +30,9 @@ const readConfig = async () => {
       acc[`${padNum(cur.id)}`] = cur.id;
       return acc;
     }, {}),
+    preview: {
+      template: './templates/index.html.hbs',
+    },
   };
 };
 
@@ -102,6 +105,8 @@ const generateAllFonts = async (config) => {
 
 const generatePreview = async (config) => {
   console.log('Generating preview...');
+
+  const template = Handlebars.compile(fs.readFileSync(config.preview.template).toString());
 };
 
 const main = async () => {
