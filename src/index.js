@@ -1,7 +1,21 @@
 import { generateFonts, FontAssetType, OtherAssetType } from 'fantasticon';
 import codepoints from './codepoints.js';
+import fs from 'fs';
 
-const generateAllFonts = async () => {
+const clean = (config) => {
+  console.log('Cleaning... 🧹');
+  fs.rmSync(config.src, { force: true, recursive: true });
+  fs.rmSync(config.dest, { force: true, recursive: true });
+  fs.mkdirSync(config.src);
+  fs.mkdirSync(config.dest);
+};
+
+const generateSvg = async (config) => {
+  console.log('Generating svg characters...');
+};
+
+const generateAllFonts = async (config) => {
+  console.log('Generating font...');
   await generateFonts({
     name: 'bmwmid',
     inputDir: './out', // (required)
@@ -37,7 +51,13 @@ const generateAllFonts = async () => {
 };
 
 const main = async () => {
-  await generateAllFonts();
+  const config = {
+    src: 'svg',
+    dest: 'dist',
+  };
+  clean(config);
+  await generateSvg(config);
+  await generateAllFonts(config);
 };
 
-main().then(() => console.log('Done'));
+main().then(() => console.log('Fertig! 🥳'));
