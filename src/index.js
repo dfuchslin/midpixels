@@ -9,10 +9,11 @@ const padNum = (num) => {
 
 const readConfig = async () => {
   return {
+    fontName: 'midpixels',
     svgDir: 'svg',
     destDir: 'dist',
     svg: {
-      template: './templates/mid-pixels.svg.hbs',
+      template: './templates/midpixels.svg.hbs',
       width: 585,
       height: 840,
       color: 'black',
@@ -31,7 +32,9 @@ const readConfig = async () => {
       return acc;
     }, {}),
     preview: {
-      template: './templates/index.html.hbs',
+      title: 'midpixels',
+      description: 'BMW MID pixel font',
+      template: './templates/index.html',
     },
   };
 };
@@ -80,7 +83,7 @@ const generateSvg = async (config) => {
 const generateAllFonts = async (config) => {
   console.log('Generating font...');
   await generateFonts({
-    name: 'bmwmid',
+    name: 'midpixels',
     inputDir: config.svgDir,
     outputDir: config.destDir,
     fontTypes: [
@@ -90,13 +93,13 @@ const generateAllFonts = async (config) => {
       FontAssetType.WOFF,
       FontAssetType.WOFF2,
     ],
-    assetTypes: [OtherAssetType.CSS, OtherAssetType.HTML],
+    assetTypes: [OtherAssetType.CSS],
     templates: {},
     pathOptions: {},
     codepoints: config.codepoints,
     fontHeight: 300,
-    tag: 'bmwmid',
-    prefix: 'bmwmid',
+    tag: 'midpixels',
+    prefix: 'midpixels',
     getIconId: ({
       basename, // `string` - Example: 'foo';
     }) => basename,
@@ -107,6 +110,13 @@ const generatePreview = async (config) => {
   console.log('Generating preview...');
 
   const template = Handlebars.compile(fs.readFileSync(config.preview.template).toString());
+  const filename = `${config.destDir}/index.html`;
+  const svg = template({
+    config,
+    now: new Date().getTime(),
+  });
+  fs.writeFileSync(filename, svg);
+  console.log(`   created preview' in file ${filename}`);
 };
 
 const main = async () => {
