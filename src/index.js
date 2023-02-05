@@ -1,6 +1,29 @@
-import { generateFonts, FontAssetType, OtherAssetType } from 'fantasticon';
-import codepoints from './codepoints.js';
 import fs from 'fs';
+import characters from './characters.js';
+import { generateFonts, FontAssetType, OtherAssetType } from 'fantasticon';
+
+const calculateCodepoints = (characters) => {
+  return {};
+};
+
+const readConfig = async () => {
+  const codepoints = calculateCodepoints(characters);
+  return {
+    src: 'svg',
+    dest: 'dist',
+    svg: {
+      width: 585,
+      height: 840,
+      color: 'black',
+      offsets: {
+        x: [55, 155, 255, 355, 455],
+        y: [20, 135, 250, 365, 480, 595, 710],
+      },
+    },
+    characters,
+    codepoints,
+  };
+};
 
 const clean = (config) => {
   console.log('Cleaning... 🧹');
@@ -28,36 +51,28 @@ const generateAllFonts = async (config) => {
       FontAssetType.WOFF2,
     ],
     assetTypes: [OtherAssetType.CSS, OtherAssetType.HTML],
-    //assetTypes: [OtherAssetType.CSS, OtherAssetType.HTML, OtherAssetType.JSON, OtherAssetType.TS],
-    formatOptions: { json: { indent: 2 } },
     templates: {},
     pathOptions: {},
-    codepoints,
+    codepoints: config.codepoints,
     fontHeight: 300,
-    round: undefined,
-    descent: undefined,
-    normalize: undefined,
-    selector: null,
     tag: 'bmwmid',
     prefix: 'bmwmid',
     getIconId: ({
       basename, // `string` - Example: 'foo';
-      relativeDirPath, // `string` - Example: 'sub/dir/foo.svg'
-      absoluteFilePath, // `string` - Example: '/var/icons/sub/dir/foo.svg'
-      relativeFilePath, // `string` - Example: 'foo.svg'
-      index, // `number` - Example: `0`
-    }) => `${basename}`,
+    }) => basename,
   });
 };
 
+const generatePreview = async (config) => {
+  console.log('Generating preview...');
+};
+
 const main = async () => {
-  const config = {
-    src: 'svg',
-    dest: 'dist',
-  };
+  const config = await readConfig();
   clean(config);
   await generateSvg(config);
   await generateAllFonts(config);
+  await generatePreview(config);
 };
 
 main().then(() => console.log('Fertig! 🥳'));
