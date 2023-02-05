@@ -5,11 +5,12 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "author": "dfuchslin",
   "license": "MIT",
   "devDependencies": {
-    "fantasticon": "^2.0.0"
+    "fantasticon": "^2.0.0",
+    "handlebars": "^4.7.7"
   }
 }
