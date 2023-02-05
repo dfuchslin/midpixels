@@ -33,7 +33,7 @@ const readConfig = async () => {
     }, {}),
     preview: {
       title: 'midpixels',
-      description: 'BMW MID pixel font',
+      description: 'BMW multi-information display (MID) pixel font',
       template: './templates/index.html',
       sample: [
         'ABCDEFGHIJKLMNOPQRSTUVWXYZ&#161;&#162;&#163;',
