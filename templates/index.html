@@ -84,13 +84,12 @@
     }
 
     .icons ul li {
-      vertical-align:
-        top;
+      vertical-align: top;
       width: 120px;
-      display: inline-block;
+      display:
+        inline-block;
       text-align: center;
-      background-color: rgba(0, 0, 0,
-          .02);
+      background-color: rgba(0, 0, 0, .02);
       border-radius: 3px;
       padding: 29px 0 10px 0;
       margin-right: 10px;
@@ -103,13 +102,13 @@
     }
 
     .icons ul li:hover span {
-      color: #3c75e4;
+      color:
+        #3c75e4;
       opacity: 1;
     }
 
     .icons ul li .unicode {
-      color:
-        #8c8c8c;
+      color: #8c8c8c;
       opacity: 0.3;
     }
 
@@ -137,7 +136,8 @@
     }
 
     .footer {
-      text-align: center;
+      text-align:
+        center;
       padding: 10px 0 90px 0;
     }
 
@@ -148,13 +148,13 @@
     }
 
     .footer a:hover {
-      color:
-        #0949d1;
+      color: #0949d1;
     }
 
     .links {
       text-align: center;
-      padding: 50px 0 0 0;
+      padding:
+        50px 0 0 0;
       font-size: 14px;
     }
 
@@ -176,7 +176,8 @@
       url("{{config.fontName}}.woff?{{now}}") format("woff"),
       /* chrome, firefox */
       url("{{config.fontName}}.ttf?{{now}}") format("truetype"),
-      /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+      /* chrome, firefox, opera, Safari,
+      Android, iOS 4.2+*/
       url("{{config.fontName}}.svg#{{config.fontName}}?{{now}}") format("svg");
       /* iOS 4.1- */
     }
@@ -202,15 +203,9 @@
     </div>
   </div>
   <div class='sample iconfont'>
-    <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ&#161;&#162;&#163;</p>
-    <p>abcdefghijklmnopqrstuvwxyz&#164;&#165;&#166;</p>
-    <p>!"#$%&'()*+,-./0123456789:;&lt;=</p>
-    <p>
-      &gt;?@[\]^_`{|}~&#127;&#160;&#167;&#168;&#169;&#170;&#171;&#172;&#173;&#174;&#175;&#176;&#177;&#178;&#179;&#180;&#181;&#182;
-    </p>
-    <p>
-      &#183;&#184;&#185;&#186;&#187;&#188;&#189;&#190;&#191;&#192;&#193;&#194;&#195;&#196;&#197;&#198;&#199;&#200;&#201;&#202;&#203;&#204;&#205;&#206;&#207;
-    </p>
+    {{#each config.preview.sample}}
+      <p>{{~{this}~}}</p>
+    {{/each}}
   </div>
   <div class='icons'>
     <ul>
@@ -223,8 +218,8 @@
   </div>
 
   <div class='footer'>
-    Licensed under MIT. <a target='_blank'
-      href='https://github.com/dfuchslin/midpixels'>https://github.com/dfuchslin/midpixels</a>
+    Licensed under MIT.
+    <a target='_blank' href='https://github.com/dfuchslin/midpixels'>https://github.com/dfuchslin/midpixels</a>
     <div><a target='_blank' href='https://github.com/jaywcjlove/svgtofont'>inspired by svgtofont</a></div>
   </div>
 </body>
