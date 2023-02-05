@@ -107,9 +107,7 @@ const generateAllFonts = async (config) => {
     fontHeight: 300,
     tag: 'midpixels',
     prefix: 'midpixels',
-    getIconId: ({
-      basename, // `string` - Example: 'foo';
-    }) => basename,
+    getIconId: ({ basename }) => basename,
   });
 };
 
