@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 
 <head>
-  <meta charset='UTF-8' />
+  <meta charset="UTF-8" />
   <title>{{config.preview.title}}</title>
 
-  <meta name='viewport' content='width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' />
-  <meta name='description' content='{{config.preview.description}}' />
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <meta name="description" content="{{config.preview.description}}" />
 
   <style>
     * {
@@ -197,42 +197,72 @@
       white-space: pre;
     }
 
+    .sample .background,
+    .sample .overlay {
+      white-space: pre;
+    }
+
+    .sample p {
+      position: relative;
+      height: 1.25em;
+    }
+
+    .sample .background {
+      position: absolute;
+      padding: 0 0.2em 0 0.2em;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      color: brown;
+      background-color: #780000;
+    }
+
+    .sample .overlay {
+      position: absolute;
+      padding: 0 0.2em 0 0.2em;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      color: #ffad00;
+    }
+
   </style>
 </head>
 
 <body>
 
-  <div class='header'>
+  <div class="header">
     <h1>{{config.fontName}}</h1>
-    <div class='info'>
+    <div class="info">
       {{config.preview.description}}
     </div>
   </div>
-  <div class='sample iconfont'>
+  <div class="sample iconfont">
     {{#each config.preview.sample}}
-      <p>{{~{this}~}}</p>
+      <p><span class="background">{{~{@root.config.preview.sample_background}~}}</span><span
+          class="overlay">{{~{this}~}}</span></p>
     {{/each}}
   </div>
-  <div class='icons'>
+  <div class="icons">
     <ul>
       {{#each config.characters as | character |}}
         {{#with character.codepoint}}
-          <li class='unicode-icon'><span class='iconfont'>&#{{character.codepoint}};</span>
-            <h4>{{character.id}} ({{character.codepoint}})</h4><span class='unicode'>&#{{character.codepoint}};</span>
+          <li class="unicode-icon"><span class="iconfont">&#{{character.codepoint}};</span>
+            <h4>{{character.id}} ({{character.codepoint}})</h4><span class="unicode">&#{{character.codepoint}};</span>
           </li>
       {{else}}
-        <li class='unicode-icon'><span class='iconfont'>&#{{character.id}};</span>
-          <h4>{{character.id}}</h4><span class='unicode'>&#{{character.id}};</span>
+        <li class="unicode-icon"><span class="iconfont">&#{{character.id}};</span>
+          <h4>{{character.id}}</h4><span class="unicode">&#{{character.id}};</span>
         </li>
         {{/with}}
       {{/each}}
     </ul>
   </div>
 
-  <div class='footer'>
+  <div class="footer">
     Licensed under MIT.<br />
-    <a target='_blank' href='https://github.com/dfuchslin/midpixels'>https://github.com/dfuchslin/midpixels</a>
-    <div><a target='_blank' href='https://github.com/jaywcjlove/svgtofont'>inspired by svgtofont</a></div>
+    <a target="_blank" href="https://github.com/dfuchslin/midpixels">https://github.com/dfuchslin/midpixels</a>
+    <div><a target="_blank" href="https://github.com/jaywcjlove/svgtofont">inspired by svgtofont</a></div>
   </div>
 </body>
 
