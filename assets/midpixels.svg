@@ -5,9 +5,9 @@
         @media (prefers-color-scheme: dark) { rect { fill: #eee; } }
     </style>
   </defs>
-  <g class="sprite" id="32">
+  <g id="32">
   </g>
-  <g class="sprite" id="33">
+  <g id="33">
           <g class="sprite2"><rect x="255" y="20" fill="black" width="75" height="90"></rect></g>
           <g class="sprite2"><rect x="255" y="135" fill="black" width="75" height="90"></rect></g>
           <g class="sprite2"><rect x="255" y="250" fill="black" width="75" height="90"></rect></g>
@@ -15,7 +15,7 @@
           <g class="sprite2"><rect x="255" y="480" fill="black" width="75" height="90"></rect></g>
           <g class="sprite2"><rect x="255" y="710" fill="black" width="75" height="90"></rect></g>
   </g>
-  <g class="sprite" id="34">
+  <g id="34">
           <g class="sprite2"><rect x="155" y="20" fill="black" width="75" height="90"></rect></g>
           <g class="sprite2"><rect x="355" y="20" fill="black" width="75" height="90"></rect></g>
           <g class="sprite2"><rect x="155" y="135" fill="black" width="75" height="90"></rect></g>
@@ -23,7 +23,7 @@
           <g class="sprite2"><rect x="155" y="250" fill="black" width="75" height="90"></rect></g>
           <g class="sprite2"><rect x="355" y="250" fill="black" width="75" height="90"></rect></g>
   </g>
-  <g class="sprite" id="35">
+  <g id="35">
           <g class="sprite2"><rect x="155" y="20" fill="black" width="75" height="90"></rect></g>
           <g class="sprite2"><rect x="355" y="20" fill="black" width="75" height="90"></rect></g>
           <g class="sprite2"><rect x="155" y="135" fill="black" width="75" height="90"></rect></g>
