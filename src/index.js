@@ -97,7 +97,8 @@ const generateSvg = async (config) => {
       pixels.push(columns);
       i += 1;
     }
-    characters.push({ ...character, pixels });
+    const hex = `0x${Number(character.id).toString(16).toUpperCase()}`;
+    characters.push({ ...character, pixels, hex });
 
     const filename = `${config.svgDir}/${padNum(id)}.svg`;
     const svg = template({ svg: config.svg, characters: [{ id, desc, pixels }] });
