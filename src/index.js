@@ -60,6 +60,8 @@ const generateSvg = async (config) => {
 
   const template = Handlebars.compile(fs.readFileSync(config.svg.template).toString());
 
+  const characters = [];
+
   for (const character of config.characters) {
     const id = character.id;
     const desc = character.desc;
@@ -80,12 +82,18 @@ const generateSvg = async (config) => {
       pixels.push(columns);
       i += 1;
     }
+    characters.push({ ...character, pixels });
 
     const filename = `${config.svgDir}/${padNum(id)}.svg`;
-    const svg = template({ svg: config.svg, id, desc, pixels });
+    const svg = template({ svg: config.svg, characters: [{ id, desc, pixels }] });
     fs.writeFileSync(filename, svg);
     console.log(`   created character ${id} '${desc}' in file ${filename}`);
   }
+
+  const filename = `${config.destDir}/${config.fontName}.svg`;
+  const svg = template({ svg: config.svg, characters });
+  fs.writeFileSync(filename, svg);
+  console.log(`   created combined svg in file ${filename}`);
 };
 
 const generateAllFonts = async (config) => {
@@ -94,13 +102,7 @@ const generateAllFonts = async (config) => {
     name: 'midpixels',
     inputDir: config.svgDir,
     outputDir: config.destDir,
-    fontTypes: [
-      FontAssetType.TTF,
-      FontAssetType.SVG,
-      FontAssetType.EOT,
-      FontAssetType.WOFF,
-      FontAssetType.WOFF2,
-    ],
+    fontTypes: [FontAssetType.TTF, FontAssetType.EOT, FontAssetType.WOFF, FontAssetType.WOFF2],
     assetTypes: [OtherAssetType.CSS],
     templates: {},
     pathOptions: {},

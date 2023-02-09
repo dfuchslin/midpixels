@@ -11,9 +11,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
 
 ## Character map
 
-| 0x20 | 0x21 | 0x22 | 0x23 | 0x24 | 0x25 | 0x26 | 0x27 | 0x28 | 0x29 | 0x2A | 0x2B | 0x2C | 0x2D | 0x2E | 0x2F |
-|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| <img height="20px" alt="0x20" src="./svg/032.svg"/><br/>0x20<br/>032 | <img height="20px" alt="0x21" src="./svg/033.svg"/><br/>0x21<br/>033 | <img height="20px" alt="0x22" src="./svg/034.svg"/><br/>0x22<br/>034 | <img height="20px" alt="0x23" src="./svg/035.svg"/><br/>0x23<br/>035 | 0x24 | 0x25 | 0x26 | 0x27 | 0x28 | 0x29 | 0x2A | 0x2B | 0x2C | 0x2D | 0x2E | 0x2F |
+| | | | | | | | | |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| symbol<br/>IBUS Hex<br/>Font codepoint | <img height="40px" alt="0x20" src="./assets/midpixels.svg#32"/><br/>0x20<br/>032 | <img height="40px" alt="0x21" src="./assets/midpixels.svg#33"/><br/>0x21<br/>033 | <img height="40px" alt="0x22" src="./assets/midpixels.svg#34"/><br/>0x22<br/>034 | <img height="40px" alt="0x23" src="./assets/midpixels.svg#35"/><br/>0x23<br/>035 | 0x24 | 0x25 | 0x26 | 0x27 | 0x28 | 0x29 | 0x2A | 0x2B | 0x2C | 0x2D | 0x2E | 0x2F |
 
 ## Background
 
