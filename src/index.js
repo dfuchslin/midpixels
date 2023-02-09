@@ -31,6 +31,10 @@ const readConfig = async () => {
       acc[`${padNum(cur.id)}`] = cur.codepoint ?? cur.id;
       return acc;
     }, {}),
+    charactermap: {
+      template: './templates/charactermap.md',
+      columns: 12,
+    },
     preview: {
       title: 'midpixels',
       description: 'BMW multi-information display (MID) pixel font',
@@ -53,6 +57,17 @@ const clean = (config) => {
   fs.rmSync(config.destDir, { force: true, recursive: true });
   fs.mkdirSync(config.svgDir);
   fs.mkdirSync(config.destDir);
+};
+
+const chunk = (items, size) => {
+  const chunks = [];
+  items = [].concat(...items);
+
+  while (items.length) {
+    chunks.push(items.splice(0, size));
+  }
+
+  return chunks;
 };
 
 const generateSvg = async (config) => {
@@ -94,6 +109,16 @@ const generateSvg = async (config) => {
   const svg = template({ svg: config.svg, characters, useSprite: true });
   fs.writeFileSync(filename, svg);
   console.log(`   created combined svg in file ${filename}`);
+
+  const characterMapTemplate = Handlebars.compile(
+    fs.readFileSync(config.charactermap.template).toString()
+  );
+  const characterMapFilename = `${config.destDir}/charactermap.md`;
+  const characterMap = characterMapTemplate({
+    rows: chunk(characters, config.charactermap.columns),
+  });
+  fs.writeFileSync(characterMapFilename, characterMap);
+  console.log(`   created charactermap in file ${characterMapFilename}`);
 };
 
 const generateAllFonts = async (config) => {
