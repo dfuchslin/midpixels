@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="585" height="840" viewBox="0 0 585 840" enable-background="new 0 0 585 840" xml:space="preserve">
+  <defs>
+    <style>
+        rect { fill: #000; }
+        @media (prefers-color-scheme: dark) { rect { fill: #eee; } }
+    </style>
+  </defs>
+  <g id="126">
+          <g><rect x="255" y="135" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="255" y="250" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="355" y="250" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="55" y="365" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="155" y="365" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="255" y="365" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="355" y="365" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="455" y="365" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="255" y="480" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="355" y="480" fill="black" width="75" height="90"></rect></g>
+          <g><rect x="255" y="595" fill="black" width="75" height="90"></rect></g>
+  </g>
+</svg>

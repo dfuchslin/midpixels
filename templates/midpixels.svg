@@ -1,4 +1,10 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="{{svg.width}}" height="{{svg.height}}" viewBox="0 0 {{svg.width}} {{svg.height}}" enable-background="new 0 0 {{svg.width}} {{svg.height}}" xml:space="preserve">
+  <defs>
+    <style>
+        rect { fill: #000; }
+        @media (prefers-color-scheme: dark) { rect { fill: #eee; } }
+    </style>
+  </defs>
   {{#each characters}}
   <g id="{{id}}">
     {{#each pixels~}}
