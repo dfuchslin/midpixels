@@ -904,6 +904,14 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
   </tbody>
 </table>
 
+The table shows:
+* Character/symbol example
+* IBUS hex code point
+* Font code point
+* Normal font example at same code point
+
+---
+
 ## Background
 
 Using a customized test harness (ibus usb adapter, custom code), I sent all possible 8-bit values to a MID display and mapped the pixels for each character. There are a total of 144 displayable characters/symbols. See the map in [characters.js](./src/characters.js).
