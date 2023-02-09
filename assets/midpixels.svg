@@ -3,7 +3,6 @@
     <style>
         rect { fill: #000; }
         @media (prefers-color-scheme: dark) { rect { fill: #eee; } }
-
         .sprite, .sprite g { display: none; }
         .sprite:target, .sprite:target g { display: inline; }
     </style>

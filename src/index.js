@@ -91,7 +91,7 @@ const generateSvg = async (config) => {
   }
 
   const filename = `${config.destDir}/${config.fontName}.svg`;
-  const svg = template({ svg: config.svg, characters });
+  const svg = template({ svg: config.svg, characters, useSprite: true });
   fs.writeFileSync(filename, svg);
   console.log(`   created combined svg in file ${filename}`);
 };

@@ -52,7 +52,8 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       <td align="center">
         <img height="20px" alt="0x26" src="./svg/038.svg"/><br/>
         0x26<br/>
-        <small>038</small>
+        <i>038</i><br/>
+        &#38;
       </td>
       <td align="center">
         <img height="20px" alt="0x27" src="./svg/039.svg"/><br/>

@@ -1,12 +1,16 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="{{svg.width}}" height="{{svg.height}}" viewBox="0 0 {{svg.width}} {{svg.height}}" enable-background="new 0 0 {{svg.width}} {{svg.height}}" xml:space="preserve">
+  {{#if @root.useSprite}}
   <defs>
     <style>
         rect { fill: #000; }
         @media (prefers-color-scheme: dark) { rect { fill: #eee; } }
+        .sprite, .sprite g { display: none; }
+        .sprite:target, .sprite:target g { display: inline; }
     </style>
   </defs>
+  {{/if}}
   {{#each characters}}
-  <g id="{{id}}">
+  <g {{#if @root.useSprite}}class="sprite" {{/if}}id="{{id}}">
     {{#each pixels~}}
       {{~#each this}}
         {{#if active}}
