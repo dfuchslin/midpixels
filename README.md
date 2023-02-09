@@ -20,11 +20,6 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
   <tbody>
     <tr>
       <td align="center">
-        Symbol<br/>
-        IBUS Hex<br/>
-        Font code point
-      </td>
-      <td align="center">
         <img height="20px" alt="0x20" src="./svg/032.svg"/><br/>
         0x20<br/>
         032
@@ -63,6 +58,26 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
         <img height="20px" alt="0x27" src="./svg/039.svg"/><br/>
         0x27<br/>
         039
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x28" src="./svg/040.svg"/><br/>
+        0x28<br/>
+        040
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x29" src="./svg/041.svg"/><br/>
+        0x29<br/>
+        041
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x30" src="./svg/042.svg"/><br/>
+        0x30<br/>
+        042
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x31" src="./svg/043.svg"/><br/>
+        0x31<br/>
+        043
       </td>
     </tr>
   </tbody>
