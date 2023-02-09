@@ -31,6 +31,10 @@ const readConfig = async () => {
       acc[`${padNum(cur.id)}`] = cur.codepoint ?? cur.id;
       return acc;
     }, {}),
+    charactermap: {
+      template: './templates/charactermap.md',
+      columns: 12,
+    },
     preview: {
       title: 'midpixels',
       description: 'BMW multi-information display (MID) pixel font',
@@ -55,10 +59,23 @@ const clean = (config) => {
   fs.mkdirSync(config.destDir);
 };
 
+const chunk = (items, size) => {
+  const chunks = [];
+  items = [].concat(...items);
+
+  while (items.length) {
+    chunks.push(items.splice(0, size));
+  }
+
+  return chunks;
+};
+
 const generateSvg = async (config) => {
   console.log('Generating svg characters...');
 
   const template = Handlebars.compile(fs.readFileSync(config.svg.template).toString());
+
+  const characters = [];
 
   for (const character of config.characters) {
     const id = character.id;
@@ -80,12 +97,29 @@ const generateSvg = async (config) => {
       pixels.push(columns);
       i += 1;
     }
+    const hex = `0x${Number(character.id).toString(16).toUpperCase()}`;
+    characters.push({ ...character, pixels, hex });
 
     const filename = `${config.svgDir}/${padNum(id)}.svg`;
-    const svg = template({ svg: config.svg, id, desc, pixels });
+    const svg = template({ svg: config.svg, characters: [{ id, desc, pixels }] });
     fs.writeFileSync(filename, svg);
     console.log(`   created character ${id} '${desc}' in file ${filename}`);
   }
+
+  const filename = `${config.destDir}/${config.fontName}.svg`;
+  const svg = template({ svg: config.svg, characters, useSprite: true });
+  fs.writeFileSync(filename, svg);
+  console.log(`   created combined svg in file ${filename}`);
+
+  const characterMapTemplate = Handlebars.compile(
+    fs.readFileSync(config.charactermap.template).toString()
+  );
+  const characterMapFilename = `${config.destDir}/charactermap.md`;
+  const characterMap = characterMapTemplate({
+    rows: chunk(characters, config.charactermap.columns),
+  });
+  fs.writeFileSync(characterMapFilename, characterMap);
+  console.log(`   created charactermap in file ${characterMapFilename}`);
 };
 
 const generateAllFonts = async (config) => {
@@ -94,13 +128,7 @@ const generateAllFonts = async (config) => {
     name: 'midpixels',
     inputDir: config.svgDir,
     outputDir: config.destDir,
-    fontTypes: [
-      FontAssetType.TTF,
-      FontAssetType.SVG,
-      FontAssetType.EOT,
-      FontAssetType.WOFF,
-      FontAssetType.WOFF2,
-    ],
+    fontTypes: [FontAssetType.TTF, FontAssetType.EOT, FontAssetType.WOFF, FontAssetType.WOFF2],
     assetTypes: [OtherAssetType.CSS],
     templates: {},
     pathOptions: {},
