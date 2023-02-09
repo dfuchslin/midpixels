@@ -15,6 +15,59 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 | symbol<br/>IBUS Hex<br/>Font codepoint | <img height="20px" alt="0x20" src="./svg/032.svg"/><br/>0x20<br/>032 | <img height="20px" alt="0x21" src="./svg/033.svg"/><br/>0x21<br/>033 | <img height="20px" alt="0x22" src="./svg/034.svg"/><br/>0x22<br/>034 | <img height="20px" alt="0x23" src="./svg/035.svg"/><br/>0x23<br/>035 | 0x24 | 0x25 | 0x26 | 0x27 | 0x28 | 0x29 | 0x2A | 0x2B | 0x2C | 0x2D | 0x2E | 0x2F |
 
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        Symbol<br/>
+        IBUS Hex<br/>
+        Font code point
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x20" src="./svg/032.svg"/><br/>
+        0x20<br/>
+        032
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x21" src="./svg/033.svg"/><br/>
+        0x21<br/>
+        033
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x22" src="./svg/034.svg"/><br/>
+        0x22<br/>
+        034
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x23" src="./svg/035.svg"/><br/>
+        0x23<br/>
+        035
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x24" src="./svg/036.svg"/><br/>
+        0x24<br/>
+        036
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x25" src="./svg/037.svg"/><br/>
+        0x25<br/>
+        037
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x26" src="./svg/038.svg"/><br/>
+        0x26<br/>
+        038
+      </td>
+      <td align="center">
+        <img height="20px" alt="0x27" src="./svg/039.svg"/><br/>
+        0x27<br/>
+        039
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Background
 
 Using a customized test harness (ibus usb adapter, custom code), I sent all possible 8-bit values to a MID display and mapped the pixels for each character. There are a total of 144 displayable characters/symbols. See the map in [characters.js](./src/characters.js).
