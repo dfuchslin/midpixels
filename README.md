@@ -25,12 +25,12 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
         032
       </td>
       <td align="center">
-        <svg><use xlink:href="./assets/midpixels.svg#33"></use></svg><br/>
+        <img height="20px" alt="0x21" src="./assets/midpixels.svg#33"></img><br/>
         0x21<br/>
         033
       </td>
       <td align="center">
-        <svg><use xlink:href="./assets/midpixels.svg#34"></use></svg><br/>
+        <img height="20px" alt="0x22" src="./assets/midpixels.svg#34"></img><br/>
         0x22<br/>
         034
       </td>
