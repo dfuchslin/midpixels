@@ -908,7 +908,7 @@ The table shows:
 * Character/symbol example
 * IBUS hex code point
 * Font code point
-* Normal font example at same code point
+* Normal font example at same code point (UTF-8)
 
 ---
 
