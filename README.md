@@ -1,6 +1,6 @@
 # MID pixels
 
-A custom 5x7 pixel font comprising all the characters and symbols displayed on the BMW Multi Information Display (MID) on E38 and E39 models. The characters might also be in use on other I-BUS LCD displays (instrument cluster, radio, etc). The character set is custom and matches the ASCII character set from characters 32 to 125. Above code point 125, the character set is custom and very specific to the symbols needed for displaying system controls such as volume, arrows, bars, and various symbols. Two of the used code points (127 and 173) are control characters that do not display in a font (delete and soft-hyphen, respectively), so I have remapped those two symbols to other code points in the font. Otherwise, the code points are the same for IBUS usage and in the font.
+A custom 5x7 pixel font comprising all the characters and symbols displayed on the BMW Multi Information Display (MID) on E38 and E39 models. The characters are probably also in use on other IBUS LCD displays (instrument cluster, radio, etc). The character set matches the ASCII character set from characters 32 to 125 (A-Z, numbers, punctuation, etc). Above code point 125, the character set is custom and very specific to the symbols needed for displaying system controls such as volume, arrows, bars, and various symbols. Three of those upper code points (127, 160, and 173) are characters that do not display nicely in a font (control characters such as delete and soft-hyphen), so I have remapped those symbols to other code points in the font. Otherwise, the code points are the same for IBUS usage and in the font.
 
 <!--<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sample-dark.png">
@@ -18,7 +18,7 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
         <img height="20px" src="./assets/midpixels.svg#32"/><br/>
         0x20<br/>
         32<br/>
-        &#32;&nbsp;
+        &nbsp;
       </td>
       <td align="center">
         <img height="20px" src="./assets/midpixels.svg#33"/><br/>
@@ -609,8 +609,8 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       <td align="center">
         <img height="20px" src="./assets/midpixels.svg#160"/><br/>
         0xA0<br/>
-        160<br/>
-        &#160;
+        1160<br/>
+        &#1160;
       </td>
       <td align="center">
         <img height="20px" src="./assets/midpixels.svg#161"/><br/>
@@ -914,7 +914,7 @@ The table shows:
 
 ## Background
 
-Using a customized test harness (ibus usb adapter, custom code), I sent all possible 8-bit values to a MID display and mapped the pixels for each character. There are a total of 144 displayable characters/symbols. See the map in [characters.js](./src/characters.js).
+Using a customized test harness (IBUS USB adapter, custom code), I sent all possible 8-bit values to a MID display and mapped the pixels for each character. There are a total of 144 displayable characters/symbols. See the pixel map in [characters.js](./src/characters.js).
 
 ## Building the font
 

@@ -246,15 +246,9 @@
   <div class="icons">
     <ul>
       {{#each config.characters as | character |}}
-        {{#with character.codepoint}}
-          <li class="unicode-icon"><span class="iconfont">&#{{character.codepoint}};</span>
-            <h4>{{character.id}} ({{character.codepoint}})</h4><span class="unicode">&#{{character.codepoint}};</span>
-          </li>
-        {{else}}
-          <li class="unicode-icon"><span class="iconfont">&#{{character.id}};</span>
-            <h4>{{character.id}}</h4><span class="unicode">&#{{character.id}};</span>
-          </li>
-        {{/with}}
+        <li class="unicode-icon"><span class="iconfont">&#{{character.codepoint}};</span>
+          <h4>{{character.hex}}</h4><h4>{{character.codepoint}}</h4><span class="unicode">{{{character.sample}}}</span>
+        </li>
       {{/each}}
     </ul>
   </div>

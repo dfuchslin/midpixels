@@ -70,6 +70,13 @@ const chunk = (items, size) => {
   return chunks;
 };
 
+const sample = (id) => {
+  if (id === 32) {
+    return '&nbsp;';
+  }
+  return `&#${id};`;
+};
+
 const generateSvg = async (config) => {
   console.log('Generating svg characters...');
 
@@ -97,8 +104,11 @@ const generateSvg = async (config) => {
       pixels.push(columns);
       i += 1;
     }
-    const hex = `0x${Number(character.id).toString(16).toUpperCase()}`;
-    characters.push({ ...character, pixels, hex });
+    character.hex = `0x${Number(character.id).toString(16).toUpperCase()}`;
+    character.pixels = pixels;
+    character.codepoint = character.codepoint ?? character.id;
+    character.sample = sample(character.codepoint);
+    characters.push(character);
 
     const filename = `${config.svgDir}/${padNum(id)}.svg`;
     const svg = template({ svg: config.svg, characters: [{ id, desc, pixels }] });

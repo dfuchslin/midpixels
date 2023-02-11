@@ -1250,6 +1250,7 @@ export default [
   },
   {
     id: 160,
+    codepoint: 1160,
     desc: 'ß',
     pixels: [
       [0, 1, 1, 1, 0],
