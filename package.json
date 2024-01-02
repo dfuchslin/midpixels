@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
+    "clean": "rm -rf dist",
     "build": "node src/index.js"
   },
   "author": "dfuchslin",
