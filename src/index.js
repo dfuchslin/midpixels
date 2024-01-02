@@ -10,7 +10,7 @@ const padNum = (num) => {
 const readConfig = async () => {
   return {
     fontName: 'midpixels',
-    svgDir: 'svg',
+    svgDir: 'dist/svg',
     destDir: 'dist',
     svg: {
       template: './templates/midpixels.svg',
@@ -55,8 +55,8 @@ const clean = (config) => {
   console.log('Cleaning... 🧹');
   fs.rmSync(config.svgDir, { force: true, recursive: true });
   fs.rmSync(config.destDir, { force: true, recursive: true });
-  fs.mkdirSync(config.svgDir);
-  fs.mkdirSync(config.destDir);
+  fs.mkdirSync(config.svgDir, { recursive: true });
+  fs.mkdirSync(config.destDir, { recursive: true });
 };
 
 const chunk = (items, size) => {
@@ -108,6 +108,7 @@ const generateSvg = async (config) => {
     character.pixels = pixels;
     character.codepoint = character.codepoint ?? character.id;
     character.sample = sample(character.codepoint);
+    character.padded_id = padNum(id);
     characters.push(character);
 
     const filename = `${config.svgDir}/${padNum(id)}.svg`;
@@ -117,7 +118,7 @@ const generateSvg = async (config) => {
   }
 
   const filename = `${config.destDir}/${config.fontName}.svg`;
-  const svg = template({ svg: config.svg, characters, useSprite: true });
+  const svg = template({ svg: config.svg, characters });
   fs.writeFileSync(filename, svg);
   console.log(`   created combined svg in file ${filename}`);
 
