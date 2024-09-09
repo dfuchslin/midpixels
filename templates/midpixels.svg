@@ -10,7 +10,7 @@
     {{#each pixels~}}
       {{~#each this}}
         {{#if active}}
-          <g><rect x="{{x}}" y="{{y}}" fill="{{color}}" width="{{@root.svg.pixel.width}}" height="{{@root.svg.pixel.height}}"></rect></g>
+          <g><rect x="{{x}}" y="{{y}}" width="{{@root.svg.pixel.width}}" height="{{@root.svg.pixel.height}}"></rect></g>
         {{/if}}
       {{~/each}}
     {{~/each}}
