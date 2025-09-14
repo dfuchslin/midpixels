@@ -14,6 +14,7 @@ const readConfig = async () => {
     destDir: 'dist',
     svg: {
       template: './templates/midpixels.svg',
+      templateDark: './templates/midpixels-dark.svg',
       width: 585,
       height: 840,
       color: 'black',
@@ -77,10 +78,17 @@ const sample = (id) => {
   return `&#${id};`;
 };
 
+function templateSvg(svg, filename, template, id, desc, pixels) {
+    const outputSvg = template({svg, characters: [{id, desc, pixels}]});
+    fs.writeFileSync(filename, outputSvg);
+    console.log(`   created character ${id} '${desc}' in file ${filename}`);
+}
+
 const generateSvg = async (config) => {
   console.log('Generating svg characters...');
 
   const template = Handlebars.compile(fs.readFileSync(config.svg.template).toString());
+  const templateDark = Handlebars.compile(fs.readFileSync(config.svg.templateDark).toString());
 
   const characters = [];
 
@@ -111,10 +119,8 @@ const generateSvg = async (config) => {
     character.padded_id = padNum(id);
     characters.push(character);
 
-    const filename = `${config.svgDir}/${padNum(id)}.svg`;
-    const svg = template({ svg: config.svg, characters: [{ id, desc, pixels }] });
-    fs.writeFileSync(filename, svg);
-    console.log(`   created character ${id} '${desc}' in file ${filename}`);
+    templateSvg(config.svg, `${config.svgDir}/${padNum(id)}.svg`, template, id, desc, pixels);
+    templateSvg(config.svg, `${config.svgDir}/${padNum(id)}-dark.svg`, templateDark, id, desc, pixels);
   }
 
   const filename = `${config.destDir}/${config.fontName}.svg`;
