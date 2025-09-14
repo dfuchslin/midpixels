@@ -2,6 +2,7 @@ import fs from 'fs';
 import characters from './characters.js';
 import { generateFonts, FontAssetType, OtherAssetType } from 'fantasticon';
 import Handlebars from 'handlebars';
+import sharp from 'sharp';
 
 const padNum = (num) => {
   return String(num).padStart(3, '0');
@@ -11,6 +12,7 @@ const readConfig = async () => {
   return {
     fontName: 'midpixels',
     svgDir: 'dist/svg',
+    pngDir: 'dist/png',
     destDir: 'dist',
     svg: {
       template: './templates/midpixels.svg',
@@ -55,8 +57,10 @@ const readConfig = async () => {
 const clean = (config) => {
   console.log('Cleaning... 🧹');
   fs.rmSync(config.svgDir, { force: true, recursive: true });
+  fs.rmSync(config.pngDir, { force: true, recursive: true });
   fs.rmSync(config.destDir, { force: true, recursive: true });
   fs.mkdirSync(config.svgDir, { recursive: true });
+  fs.mkdirSync(config.pngDir, { recursive: true });
   fs.mkdirSync(config.destDir, { recursive: true });
 };
 
@@ -78,10 +82,20 @@ const sample = (id) => {
   return `&#${id};`;
 };
 
-function templateSvg(svg, filename, template, id, desc, pixels) {
+const convertSvgToPng = async (svgFilename, pngFilename) => {
+    await sharp(svgFilename)
+        .png({})
+        .toFile(pngFilename)
+}
+
+const templateSvg = async (config, filenameBase, template, id, desc, pixels) => {
+    const svg = config.svg;
+    const filename = `${config.svgDir}/${filenameBase}.svg`;
+    const filenamePng = `${config.pngDir}/${filenameBase}.png`;
     const outputSvg = template({svg, characters: [{id, desc, pixels}]});
     fs.writeFileSync(filename, outputSvg);
-    console.log(`   created character ${id} '${desc}' in file ${filename}`);
+    await convertSvgToPng(filename, filenamePng);
+    console.log(`   created character ${id} '${desc}' in files ${filename} and ${filenamePng}`);
 }
 
 const generateSvg = async (config) => {
@@ -119,8 +133,8 @@ const generateSvg = async (config) => {
     character.padded_id = padNum(id);
     characters.push(character);
 
-    templateSvg(config.svg, `${config.svgDir}/${padNum(id)}.svg`, template, id, desc, pixels);
-    templateSvg(config.svg, `${config.svgDir}/${padNum(id)}-dark.svg`, templateDark, id, desc, pixels);
+    await templateSvg(config, `${padNum(id)}`, template, id, desc, pixels);
+    await templateSvg(config, `${padNum(id)}-dark`, templateDark, id, desc, pixels);
   }
 
   const filename = `${config.destDir}/${config.fontName}.svg`;

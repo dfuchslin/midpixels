@@ -12,6 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "fantasticon": "^2.0.0",
-    "handlebars": "^4.7.7"
+    "handlebars": "^4.7.7",
+    "sharp": "^0.34.3"
   }
 }
