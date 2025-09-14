@@ -11,9 +11,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/032-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/032.svg">
-          <img height="20px" alt="&nbsp;" src="https://dfuchslin.github.io/midpixels/svg/032.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/032-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/032.png">
+          <img height="20px" alt="&nbsp;" src="https://dfuchslin.github.io/midpixels/png/032.png">
         </picture>
         0x20<br/>
         32<br/>
@@ -21,9 +21,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/033-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/033.svg">
-          <img height="20px" alt="&#33;" src="https://dfuchslin.github.io/midpixels/svg/033.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/033-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/033.png">
+          <img height="20px" alt="&#33;" src="https://dfuchslin.github.io/midpixels/png/033.png">
         </picture>
         0x21<br/>
         33<br/>
@@ -31,9 +31,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/034-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/034.svg">
-          <img height="20px" alt="&#34;" src="https://dfuchslin.github.io/midpixels/svg/034.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/034-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/034.png">
+          <img height="20px" alt="&#34;" src="https://dfuchslin.github.io/midpixels/png/034.png">
         </picture>
         0x22<br/>
         34<br/>
@@ -41,9 +41,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/035-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/035.svg">
-          <img height="20px" alt="&#35;" src="https://dfuchslin.github.io/midpixels/svg/035.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/035-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/035.png">
+          <img height="20px" alt="&#35;" src="https://dfuchslin.github.io/midpixels/png/035.png">
         </picture>
         0x23<br/>
         35<br/>
@@ -51,9 +51,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/036-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/036.svg">
-          <img height="20px" alt="&#36;" src="https://dfuchslin.github.io/midpixels/svg/036.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/036-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/036.png">
+          <img height="20px" alt="&#36;" src="https://dfuchslin.github.io/midpixels/png/036.png">
         </picture>
         0x24<br/>
         36<br/>
@@ -61,9 +61,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/037-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/037.svg">
-          <img height="20px" alt="&#37;" src="https://dfuchslin.github.io/midpixels/svg/037.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/037-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/037.png">
+          <img height="20px" alt="&#37;" src="https://dfuchslin.github.io/midpixels/png/037.png">
         </picture>
         0x25<br/>
         37<br/>
@@ -71,9 +71,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/038-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/038.svg">
-          <img height="20px" alt="&#38;" src="https://dfuchslin.github.io/midpixels/svg/038.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/038-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/038.png">
+          <img height="20px" alt="&#38;" src="https://dfuchslin.github.io/midpixels/png/038.png">
         </picture>
         0x26<br/>
         38<br/>
@@ -81,9 +81,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/039-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/039.svg">
-          <img height="20px" alt="&#39;" src="https://dfuchslin.github.io/midpixels/svg/039.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/039-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/039.png">
+          <img height="20px" alt="&#39;" src="https://dfuchslin.github.io/midpixels/png/039.png">
         </picture>
         0x27<br/>
         39<br/>
@@ -91,9 +91,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/040-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/040.svg">
-          <img height="20px" alt="&#40;" src="https://dfuchslin.github.io/midpixels/svg/040.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/040-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/040.png">
+          <img height="20px" alt="&#40;" src="https://dfuchslin.github.io/midpixels/png/040.png">
         </picture>
         0x28<br/>
         40<br/>
@@ -101,9 +101,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/041-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/041.svg">
-          <img height="20px" alt="&#41;" src="https://dfuchslin.github.io/midpixels/svg/041.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/041-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/041.png">
+          <img height="20px" alt="&#41;" src="https://dfuchslin.github.io/midpixels/png/041.png">
         </picture>
         0x29<br/>
         41<br/>
@@ -111,9 +111,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/042-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/042.svg">
-          <img height="20px" alt="&#42;" src="https://dfuchslin.github.io/midpixels/svg/042.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/042-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/042.png">
+          <img height="20px" alt="&#42;" src="https://dfuchslin.github.io/midpixels/png/042.png">
         </picture>
         0x2A<br/>
         42<br/>
@@ -121,9 +121,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/043-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/043.svg">
-          <img height="20px" alt="&#43;" src="https://dfuchslin.github.io/midpixels/svg/043.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/043-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/043.png">
+          <img height="20px" alt="&#43;" src="https://dfuchslin.github.io/midpixels/png/043.png">
         </picture>
         0x2B<br/>
         43<br/>
@@ -133,9 +133,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/044-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/044.svg">
-          <img height="20px" alt="&#44;" src="https://dfuchslin.github.io/midpixels/svg/044.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/044-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/044.png">
+          <img height="20px" alt="&#44;" src="https://dfuchslin.github.io/midpixels/png/044.png">
         </picture>
         0x2C<br/>
         44<br/>
@@ -143,9 +143,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/045-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/045.svg">
-          <img height="20px" alt="&#45;" src="https://dfuchslin.github.io/midpixels/svg/045.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/045-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/045.png">
+          <img height="20px" alt="&#45;" src="https://dfuchslin.github.io/midpixels/png/045.png">
         </picture>
         0x2D<br/>
         45<br/>
@@ -153,9 +153,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/046-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/046.svg">
-          <img height="20px" alt="&#46;" src="https://dfuchslin.github.io/midpixels/svg/046.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/046-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/046.png">
+          <img height="20px" alt="&#46;" src="https://dfuchslin.github.io/midpixels/png/046.png">
         </picture>
         0x2E<br/>
         46<br/>
@@ -163,9 +163,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/047-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/047.svg">
-          <img height="20px" alt="&#47;" src="https://dfuchslin.github.io/midpixels/svg/047.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/047-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/047.png">
+          <img height="20px" alt="&#47;" src="https://dfuchslin.github.io/midpixels/png/047.png">
         </picture>
         0x2F<br/>
         47<br/>
@@ -173,9 +173,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/048-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/048.svg">
-          <img height="20px" alt="&#48;" src="https://dfuchslin.github.io/midpixels/svg/048.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/048-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/048.png">
+          <img height="20px" alt="&#48;" src="https://dfuchslin.github.io/midpixels/png/048.png">
         </picture>
         0x30<br/>
         48<br/>
@@ -183,9 +183,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/049-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/049.svg">
-          <img height="20px" alt="&#49;" src="https://dfuchslin.github.io/midpixels/svg/049.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/049-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/049.png">
+          <img height="20px" alt="&#49;" src="https://dfuchslin.github.io/midpixels/png/049.png">
         </picture>
         0x31<br/>
         49<br/>
@@ -193,9 +193,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/050-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/050.svg">
-          <img height="20px" alt="&#50;" src="https://dfuchslin.github.io/midpixels/svg/050.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/050-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/050.png">
+          <img height="20px" alt="&#50;" src="https://dfuchslin.github.io/midpixels/png/050.png">
         </picture>
         0x32<br/>
         50<br/>
@@ -203,9 +203,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/051-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/051.svg">
-          <img height="20px" alt="&#51;" src="https://dfuchslin.github.io/midpixels/svg/051.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/051-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/051.png">
+          <img height="20px" alt="&#51;" src="https://dfuchslin.github.io/midpixels/png/051.png">
         </picture>
         0x33<br/>
         51<br/>
@@ -213,9 +213,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/052-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/052.svg">
-          <img height="20px" alt="&#52;" src="https://dfuchslin.github.io/midpixels/svg/052.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/052-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/052.png">
+          <img height="20px" alt="&#52;" src="https://dfuchslin.github.io/midpixels/png/052.png">
         </picture>
         0x34<br/>
         52<br/>
@@ -223,9 +223,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/053-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/053.svg">
-          <img height="20px" alt="&#53;" src="https://dfuchslin.github.io/midpixels/svg/053.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/053-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/053.png">
+          <img height="20px" alt="&#53;" src="https://dfuchslin.github.io/midpixels/png/053.png">
         </picture>
         0x35<br/>
         53<br/>
@@ -233,9 +233,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/054-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/054.svg">
-          <img height="20px" alt="&#54;" src="https://dfuchslin.github.io/midpixels/svg/054.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/054-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/054.png">
+          <img height="20px" alt="&#54;" src="https://dfuchslin.github.io/midpixels/png/054.png">
         </picture>
         0x36<br/>
         54<br/>
@@ -243,9 +243,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/055-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/055.svg">
-          <img height="20px" alt="&#55;" src="https://dfuchslin.github.io/midpixels/svg/055.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/055-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/055.png">
+          <img height="20px" alt="&#55;" src="https://dfuchslin.github.io/midpixels/png/055.png">
         </picture>
         0x37<br/>
         55<br/>
@@ -255,9 +255,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/056-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/056.svg">
-          <img height="20px" alt="&#56;" src="https://dfuchslin.github.io/midpixels/svg/056.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/056-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/056.png">
+          <img height="20px" alt="&#56;" src="https://dfuchslin.github.io/midpixels/png/056.png">
         </picture>
         0x38<br/>
         56<br/>
@@ -265,9 +265,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/057-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/057.svg">
-          <img height="20px" alt="&#57;" src="https://dfuchslin.github.io/midpixels/svg/057.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/057-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/057.png">
+          <img height="20px" alt="&#57;" src="https://dfuchslin.github.io/midpixels/png/057.png">
         </picture>
         0x39<br/>
         57<br/>
@@ -275,9 +275,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/058-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/058.svg">
-          <img height="20px" alt="&#58;" src="https://dfuchslin.github.io/midpixels/svg/058.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/058-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/058.png">
+          <img height="20px" alt="&#58;" src="https://dfuchslin.github.io/midpixels/png/058.png">
         </picture>
         0x3A<br/>
         58<br/>
@@ -285,9 +285,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/059-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/059.svg">
-          <img height="20px" alt="&#59;" src="https://dfuchslin.github.io/midpixels/svg/059.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/059-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/059.png">
+          <img height="20px" alt="&#59;" src="https://dfuchslin.github.io/midpixels/png/059.png">
         </picture>
         0x3B<br/>
         59<br/>
@@ -295,9 +295,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/060-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/060.svg">
-          <img height="20px" alt="&#60;" src="https://dfuchslin.github.io/midpixels/svg/060.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/060-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/060.png">
+          <img height="20px" alt="&#60;" src="https://dfuchslin.github.io/midpixels/png/060.png">
         </picture>
         0x3C<br/>
         60<br/>
@@ -305,9 +305,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/061-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/061.svg">
-          <img height="20px" alt="&#61;" src="https://dfuchslin.github.io/midpixels/svg/061.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/061-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/061.png">
+          <img height="20px" alt="&#61;" src="https://dfuchslin.github.io/midpixels/png/061.png">
         </picture>
         0x3D<br/>
         61<br/>
@@ -315,9 +315,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/062-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/062.svg">
-          <img height="20px" alt="&#62;" src="https://dfuchslin.github.io/midpixels/svg/062.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/062-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/062.png">
+          <img height="20px" alt="&#62;" src="https://dfuchslin.github.io/midpixels/png/062.png">
         </picture>
         0x3E<br/>
         62<br/>
@@ -325,9 +325,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/063-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/063.svg">
-          <img height="20px" alt="&#63;" src="https://dfuchslin.github.io/midpixels/svg/063.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/063-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/063.png">
+          <img height="20px" alt="&#63;" src="https://dfuchslin.github.io/midpixels/png/063.png">
         </picture>
         0x3F<br/>
         63<br/>
@@ -335,9 +335,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/064-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/064.svg">
-          <img height="20px" alt="&#64;" src="https://dfuchslin.github.io/midpixels/svg/064.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/064-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/064.png">
+          <img height="20px" alt="&#64;" src="https://dfuchslin.github.io/midpixels/png/064.png">
         </picture>
         0x40<br/>
         64<br/>
@@ -345,9 +345,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/065-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/065.svg">
-          <img height="20px" alt="&#65;" src="https://dfuchslin.github.io/midpixels/svg/065.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/065-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/065.png">
+          <img height="20px" alt="&#65;" src="https://dfuchslin.github.io/midpixels/png/065.png">
         </picture>
         0x41<br/>
         65<br/>
@@ -355,9 +355,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/066-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/066.svg">
-          <img height="20px" alt="&#66;" src="https://dfuchslin.github.io/midpixels/svg/066.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/066-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/066.png">
+          <img height="20px" alt="&#66;" src="https://dfuchslin.github.io/midpixels/png/066.png">
         </picture>
         0x42<br/>
         66<br/>
@@ -365,9 +365,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/067-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/067.svg">
-          <img height="20px" alt="&#67;" src="https://dfuchslin.github.io/midpixels/svg/067.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/067-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/067.png">
+          <img height="20px" alt="&#67;" src="https://dfuchslin.github.io/midpixels/png/067.png">
         </picture>
         0x43<br/>
         67<br/>
@@ -377,9 +377,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/068-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/068.svg">
-          <img height="20px" alt="&#68;" src="https://dfuchslin.github.io/midpixels/svg/068.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/068-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/068.png">
+          <img height="20px" alt="&#68;" src="https://dfuchslin.github.io/midpixels/png/068.png">
         </picture>
         0x44<br/>
         68<br/>
@@ -387,9 +387,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/069-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/069.svg">
-          <img height="20px" alt="&#69;" src="https://dfuchslin.github.io/midpixels/svg/069.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/069-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/069.png">
+          <img height="20px" alt="&#69;" src="https://dfuchslin.github.io/midpixels/png/069.png">
         </picture>
         0x45<br/>
         69<br/>
@@ -397,9 +397,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/070-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/070.svg">
-          <img height="20px" alt="&#70;" src="https://dfuchslin.github.io/midpixels/svg/070.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/070-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/070.png">
+          <img height="20px" alt="&#70;" src="https://dfuchslin.github.io/midpixels/png/070.png">
         </picture>
         0x46<br/>
         70<br/>
@@ -407,9 +407,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/071-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/071.svg">
-          <img height="20px" alt="&#71;" src="https://dfuchslin.github.io/midpixels/svg/071.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/071-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/071.png">
+          <img height="20px" alt="&#71;" src="https://dfuchslin.github.io/midpixels/png/071.png">
         </picture>
         0x47<br/>
         71<br/>
@@ -417,9 +417,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/072-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/072.svg">
-          <img height="20px" alt="&#72;" src="https://dfuchslin.github.io/midpixels/svg/072.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/072-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/072.png">
+          <img height="20px" alt="&#72;" src="https://dfuchslin.github.io/midpixels/png/072.png">
         </picture>
         0x48<br/>
         72<br/>
@@ -427,9 +427,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/073-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/073.svg">
-          <img height="20px" alt="&#73;" src="https://dfuchslin.github.io/midpixels/svg/073.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/073-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/073.png">
+          <img height="20px" alt="&#73;" src="https://dfuchslin.github.io/midpixels/png/073.png">
         </picture>
         0x49<br/>
         73<br/>
@@ -437,9 +437,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/074-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/074.svg">
-          <img height="20px" alt="&#74;" src="https://dfuchslin.github.io/midpixels/svg/074.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/074-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/074.png">
+          <img height="20px" alt="&#74;" src="https://dfuchslin.github.io/midpixels/png/074.png">
         </picture>
         0x4A<br/>
         74<br/>
@@ -447,9 +447,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/075-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/075.svg">
-          <img height="20px" alt="&#75;" src="https://dfuchslin.github.io/midpixels/svg/075.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/075-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/075.png">
+          <img height="20px" alt="&#75;" src="https://dfuchslin.github.io/midpixels/png/075.png">
         </picture>
         0x4B<br/>
         75<br/>
@@ -457,9 +457,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/076-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/076.svg">
-          <img height="20px" alt="&#76;" src="https://dfuchslin.github.io/midpixels/svg/076.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/076-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/076.png">
+          <img height="20px" alt="&#76;" src="https://dfuchslin.github.io/midpixels/png/076.png">
         </picture>
         0x4C<br/>
         76<br/>
@@ -467,9 +467,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/077-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/077.svg">
-          <img height="20px" alt="&#77;" src="https://dfuchslin.github.io/midpixels/svg/077.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/077-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/077.png">
+          <img height="20px" alt="&#77;" src="https://dfuchslin.github.io/midpixels/png/077.png">
         </picture>
         0x4D<br/>
         77<br/>
@@ -477,9 +477,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/078-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/078.svg">
-          <img height="20px" alt="&#78;" src="https://dfuchslin.github.io/midpixels/svg/078.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/078-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/078.png">
+          <img height="20px" alt="&#78;" src="https://dfuchslin.github.io/midpixels/png/078.png">
         </picture>
         0x4E<br/>
         78<br/>
@@ -487,9 +487,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/079-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/079.svg">
-          <img height="20px" alt="&#79;" src="https://dfuchslin.github.io/midpixels/svg/079.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/079-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/079.png">
+          <img height="20px" alt="&#79;" src="https://dfuchslin.github.io/midpixels/png/079.png">
         </picture>
         0x4F<br/>
         79<br/>
@@ -499,9 +499,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/080-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/080.svg">
-          <img height="20px" alt="&#80;" src="https://dfuchslin.github.io/midpixels/svg/080.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/080-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/080.png">
+          <img height="20px" alt="&#80;" src="https://dfuchslin.github.io/midpixels/png/080.png">
         </picture>
         0x50<br/>
         80<br/>
@@ -509,9 +509,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/081-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/081.svg">
-          <img height="20px" alt="&#81;" src="https://dfuchslin.github.io/midpixels/svg/081.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/081-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/081.png">
+          <img height="20px" alt="&#81;" src="https://dfuchslin.github.io/midpixels/png/081.png">
         </picture>
         0x51<br/>
         81<br/>
@@ -519,9 +519,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/082-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/082.svg">
-          <img height="20px" alt="&#82;" src="https://dfuchslin.github.io/midpixels/svg/082.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/082-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/082.png">
+          <img height="20px" alt="&#82;" src="https://dfuchslin.github.io/midpixels/png/082.png">
         </picture>
         0x52<br/>
         82<br/>
@@ -529,9 +529,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/083-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/083.svg">
-          <img height="20px" alt="&#83;" src="https://dfuchslin.github.io/midpixels/svg/083.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/083-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/083.png">
+          <img height="20px" alt="&#83;" src="https://dfuchslin.github.io/midpixels/png/083.png">
         </picture>
         0x53<br/>
         83<br/>
@@ -539,9 +539,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/084-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/084.svg">
-          <img height="20px" alt="&#84;" src="https://dfuchslin.github.io/midpixels/svg/084.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/084-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/084.png">
+          <img height="20px" alt="&#84;" src="https://dfuchslin.github.io/midpixels/png/084.png">
         </picture>
         0x54<br/>
         84<br/>
@@ -549,9 +549,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/085-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/085.svg">
-          <img height="20px" alt="&#85;" src="https://dfuchslin.github.io/midpixels/svg/085.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/085-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/085.png">
+          <img height="20px" alt="&#85;" src="https://dfuchslin.github.io/midpixels/png/085.png">
         </picture>
         0x55<br/>
         85<br/>
@@ -559,9 +559,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/086-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/086.svg">
-          <img height="20px" alt="&#86;" src="https://dfuchslin.github.io/midpixels/svg/086.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/086-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/086.png">
+          <img height="20px" alt="&#86;" src="https://dfuchslin.github.io/midpixels/png/086.png">
         </picture>
         0x56<br/>
         86<br/>
@@ -569,9 +569,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/087-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/087.svg">
-          <img height="20px" alt="&#87;" src="https://dfuchslin.github.io/midpixels/svg/087.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/087-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/087.png">
+          <img height="20px" alt="&#87;" src="https://dfuchslin.github.io/midpixels/png/087.png">
         </picture>
         0x57<br/>
         87<br/>
@@ -579,9 +579,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/088-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/088.svg">
-          <img height="20px" alt="&#88;" src="https://dfuchslin.github.io/midpixels/svg/088.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/088-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/088.png">
+          <img height="20px" alt="&#88;" src="https://dfuchslin.github.io/midpixels/png/088.png">
         </picture>
         0x58<br/>
         88<br/>
@@ -589,9 +589,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/089-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/089.svg">
-          <img height="20px" alt="&#89;" src="https://dfuchslin.github.io/midpixels/svg/089.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/089-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/089.png">
+          <img height="20px" alt="&#89;" src="https://dfuchslin.github.io/midpixels/png/089.png">
         </picture>
         0x59<br/>
         89<br/>
@@ -599,9 +599,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/090-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/090.svg">
-          <img height="20px" alt="&#90;" src="https://dfuchslin.github.io/midpixels/svg/090.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/090-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/090.png">
+          <img height="20px" alt="&#90;" src="https://dfuchslin.github.io/midpixels/png/090.png">
         </picture>
         0x5A<br/>
         90<br/>
@@ -609,9 +609,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/091-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/091.svg">
-          <img height="20px" alt="&#91;" src="https://dfuchslin.github.io/midpixels/svg/091.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/091-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/091.png">
+          <img height="20px" alt="&#91;" src="https://dfuchslin.github.io/midpixels/png/091.png">
         </picture>
         0x5B<br/>
         91<br/>
@@ -621,9 +621,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/092-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/092.svg">
-          <img height="20px" alt="&#92;" src="https://dfuchslin.github.io/midpixels/svg/092.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/092-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/092.png">
+          <img height="20px" alt="&#92;" src="https://dfuchslin.github.io/midpixels/png/092.png">
         </picture>
         0x5C<br/>
         92<br/>
@@ -631,9 +631,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/093-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/093.svg">
-          <img height="20px" alt="&#93;" src="https://dfuchslin.github.io/midpixels/svg/093.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/093-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/093.png">
+          <img height="20px" alt="&#93;" src="https://dfuchslin.github.io/midpixels/png/093.png">
         </picture>
         0x5D<br/>
         93<br/>
@@ -641,9 +641,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/094-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/094.svg">
-          <img height="20px" alt="&#94;" src="https://dfuchslin.github.io/midpixels/svg/094.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/094-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/094.png">
+          <img height="20px" alt="&#94;" src="https://dfuchslin.github.io/midpixels/png/094.png">
         </picture>
         0x5E<br/>
         94<br/>
@@ -651,9 +651,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/095-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/095.svg">
-          <img height="20px" alt="&#95;" src="https://dfuchslin.github.io/midpixels/svg/095.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/095-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/095.png">
+          <img height="20px" alt="&#95;" src="https://dfuchslin.github.io/midpixels/png/095.png">
         </picture>
         0x5F<br/>
         95<br/>
@@ -661,9 +661,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/096-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/096.svg">
-          <img height="20px" alt="&#96;" src="https://dfuchslin.github.io/midpixels/svg/096.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/096-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/096.png">
+          <img height="20px" alt="&#96;" src="https://dfuchslin.github.io/midpixels/png/096.png">
         </picture>
         0x60<br/>
         96<br/>
@@ -671,9 +671,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/097-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/097.svg">
-          <img height="20px" alt="&#97;" src="https://dfuchslin.github.io/midpixels/svg/097.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/097-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/097.png">
+          <img height="20px" alt="&#97;" src="https://dfuchslin.github.io/midpixels/png/097.png">
         </picture>
         0x61<br/>
         97<br/>
@@ -681,9 +681,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/098-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/098.svg">
-          <img height="20px" alt="&#98;" src="https://dfuchslin.github.io/midpixels/svg/098.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/098-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/098.png">
+          <img height="20px" alt="&#98;" src="https://dfuchslin.github.io/midpixels/png/098.png">
         </picture>
         0x62<br/>
         98<br/>
@@ -691,9 +691,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/099-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/099.svg">
-          <img height="20px" alt="&#99;" src="https://dfuchslin.github.io/midpixels/svg/099.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/099-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/099.png">
+          <img height="20px" alt="&#99;" src="https://dfuchslin.github.io/midpixels/png/099.png">
         </picture>
         0x63<br/>
         99<br/>
@@ -701,9 +701,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/100-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/100.svg">
-          <img height="20px" alt="&#100;" src="https://dfuchslin.github.io/midpixels/svg/100.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/100-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/100.png">
+          <img height="20px" alt="&#100;" src="https://dfuchslin.github.io/midpixels/png/100.png">
         </picture>
         0x64<br/>
         100<br/>
@@ -711,9 +711,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/101-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/101.svg">
-          <img height="20px" alt="&#101;" src="https://dfuchslin.github.io/midpixels/svg/101.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/101-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/101.png">
+          <img height="20px" alt="&#101;" src="https://dfuchslin.github.io/midpixels/png/101.png">
         </picture>
         0x65<br/>
         101<br/>
@@ -721,9 +721,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/102-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/102.svg">
-          <img height="20px" alt="&#102;" src="https://dfuchslin.github.io/midpixels/svg/102.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/102-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/102.png">
+          <img height="20px" alt="&#102;" src="https://dfuchslin.github.io/midpixels/png/102.png">
         </picture>
         0x66<br/>
         102<br/>
@@ -731,9 +731,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/103-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/103.svg">
-          <img height="20px" alt="&#103;" src="https://dfuchslin.github.io/midpixels/svg/103.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/103-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/103.png">
+          <img height="20px" alt="&#103;" src="https://dfuchslin.github.io/midpixels/png/103.png">
         </picture>
         0x67<br/>
         103<br/>
@@ -743,9 +743,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/104-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/104.svg">
-          <img height="20px" alt="&#104;" src="https://dfuchslin.github.io/midpixels/svg/104.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/104-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/104.png">
+          <img height="20px" alt="&#104;" src="https://dfuchslin.github.io/midpixels/png/104.png">
         </picture>
         0x68<br/>
         104<br/>
@@ -753,9 +753,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/105-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/105.svg">
-          <img height="20px" alt="&#105;" src="https://dfuchslin.github.io/midpixels/svg/105.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/105-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/105.png">
+          <img height="20px" alt="&#105;" src="https://dfuchslin.github.io/midpixels/png/105.png">
         </picture>
         0x69<br/>
         105<br/>
@@ -763,9 +763,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/106-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/106.svg">
-          <img height="20px" alt="&#106;" src="https://dfuchslin.github.io/midpixels/svg/106.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/106-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/106.png">
+          <img height="20px" alt="&#106;" src="https://dfuchslin.github.io/midpixels/png/106.png">
         </picture>
         0x6A<br/>
         106<br/>
@@ -773,9 +773,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/107-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/107.svg">
-          <img height="20px" alt="&#107;" src="https://dfuchslin.github.io/midpixels/svg/107.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/107-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/107.png">
+          <img height="20px" alt="&#107;" src="https://dfuchslin.github.io/midpixels/png/107.png">
         </picture>
         0x6B<br/>
         107<br/>
@@ -783,9 +783,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/108-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/108.svg">
-          <img height="20px" alt="&#108;" src="https://dfuchslin.github.io/midpixels/svg/108.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/108-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/108.png">
+          <img height="20px" alt="&#108;" src="https://dfuchslin.github.io/midpixels/png/108.png">
         </picture>
         0x6C<br/>
         108<br/>
@@ -793,9 +793,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/109-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/109.svg">
-          <img height="20px" alt="&#109;" src="https://dfuchslin.github.io/midpixels/svg/109.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/109-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/109.png">
+          <img height="20px" alt="&#109;" src="https://dfuchslin.github.io/midpixels/png/109.png">
         </picture>
         0x6D<br/>
         109<br/>
@@ -803,9 +803,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/110-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/110.svg">
-          <img height="20px" alt="&#110;" src="https://dfuchslin.github.io/midpixels/svg/110.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/110-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/110.png">
+          <img height="20px" alt="&#110;" src="https://dfuchslin.github.io/midpixels/png/110.png">
         </picture>
         0x6E<br/>
         110<br/>
@@ -813,9 +813,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/111-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/111.svg">
-          <img height="20px" alt="&#111;" src="https://dfuchslin.github.io/midpixels/svg/111.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/111-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/111.png">
+          <img height="20px" alt="&#111;" src="https://dfuchslin.github.io/midpixels/png/111.png">
         </picture>
         0x6F<br/>
         111<br/>
@@ -823,9 +823,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/112-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/112.svg">
-          <img height="20px" alt="&#112;" src="https://dfuchslin.github.io/midpixels/svg/112.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/112-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/112.png">
+          <img height="20px" alt="&#112;" src="https://dfuchslin.github.io/midpixels/png/112.png">
         </picture>
         0x70<br/>
         112<br/>
@@ -833,9 +833,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/113-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/113.svg">
-          <img height="20px" alt="&#113;" src="https://dfuchslin.github.io/midpixels/svg/113.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/113-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/113.png">
+          <img height="20px" alt="&#113;" src="https://dfuchslin.github.io/midpixels/png/113.png">
         </picture>
         0x71<br/>
         113<br/>
@@ -843,9 +843,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/114-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/114.svg">
-          <img height="20px" alt="&#114;" src="https://dfuchslin.github.io/midpixels/svg/114.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/114-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/114.png">
+          <img height="20px" alt="&#114;" src="https://dfuchslin.github.io/midpixels/png/114.png">
         </picture>
         0x72<br/>
         114<br/>
@@ -853,9 +853,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/115-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/115.svg">
-          <img height="20px" alt="&#115;" src="https://dfuchslin.github.io/midpixels/svg/115.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/115-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/115.png">
+          <img height="20px" alt="&#115;" src="https://dfuchslin.github.io/midpixels/png/115.png">
         </picture>
         0x73<br/>
         115<br/>
@@ -865,9 +865,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/116-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/116.svg">
-          <img height="20px" alt="&#116;" src="https://dfuchslin.github.io/midpixels/svg/116.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/116-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/116.png">
+          <img height="20px" alt="&#116;" src="https://dfuchslin.github.io/midpixels/png/116.png">
         </picture>
         0x74<br/>
         116<br/>
@@ -875,9 +875,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/117-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/117.svg">
-          <img height="20px" alt="&#117;" src="https://dfuchslin.github.io/midpixels/svg/117.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/117-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/117.png">
+          <img height="20px" alt="&#117;" src="https://dfuchslin.github.io/midpixels/png/117.png">
         </picture>
         0x75<br/>
         117<br/>
@@ -885,9 +885,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/118-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/118.svg">
-          <img height="20px" alt="&#118;" src="https://dfuchslin.github.io/midpixels/svg/118.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/118-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/118.png">
+          <img height="20px" alt="&#118;" src="https://dfuchslin.github.io/midpixels/png/118.png">
         </picture>
         0x76<br/>
         118<br/>
@@ -895,9 +895,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/119-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/119.svg">
-          <img height="20px" alt="&#119;" src="https://dfuchslin.github.io/midpixels/svg/119.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/119-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/119.png">
+          <img height="20px" alt="&#119;" src="https://dfuchslin.github.io/midpixels/png/119.png">
         </picture>
         0x77<br/>
         119<br/>
@@ -905,9 +905,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/120-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/120.svg">
-          <img height="20px" alt="&#120;" src="https://dfuchslin.github.io/midpixels/svg/120.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/120-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/120.png">
+          <img height="20px" alt="&#120;" src="https://dfuchslin.github.io/midpixels/png/120.png">
         </picture>
         0x78<br/>
         120<br/>
@@ -915,9 +915,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/121-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/121.svg">
-          <img height="20px" alt="&#121;" src="https://dfuchslin.github.io/midpixels/svg/121.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/121-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/121.png">
+          <img height="20px" alt="&#121;" src="https://dfuchslin.github.io/midpixels/png/121.png">
         </picture>
         0x79<br/>
         121<br/>
@@ -925,9 +925,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/122-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/122.svg">
-          <img height="20px" alt="&#122;" src="https://dfuchslin.github.io/midpixels/svg/122.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/122-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/122.png">
+          <img height="20px" alt="&#122;" src="https://dfuchslin.github.io/midpixels/png/122.png">
         </picture>
         0x7A<br/>
         122<br/>
@@ -935,9 +935,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/123-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/123.svg">
-          <img height="20px" alt="&#123;" src="https://dfuchslin.github.io/midpixels/svg/123.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/123-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/123.png">
+          <img height="20px" alt="&#123;" src="https://dfuchslin.github.io/midpixels/png/123.png">
         </picture>
         0x7B<br/>
         123<br/>
@@ -945,9 +945,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/124-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/124.svg">
-          <img height="20px" alt="&#124;" src="https://dfuchslin.github.io/midpixels/svg/124.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/124-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/124.png">
+          <img height="20px" alt="&#124;" src="https://dfuchslin.github.io/midpixels/png/124.png">
         </picture>
         0x7C<br/>
         124<br/>
@@ -955,9 +955,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/125-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/125.svg">
-          <img height="20px" alt="&#125;" src="https://dfuchslin.github.io/midpixels/svg/125.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/125-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/125.png">
+          <img height="20px" alt="&#125;" src="https://dfuchslin.github.io/midpixels/png/125.png">
         </picture>
         0x7D<br/>
         125<br/>
@@ -965,9 +965,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/126-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/126.svg">
-          <img height="20px" alt="&#126;" src="https://dfuchslin.github.io/midpixels/svg/126.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/126-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/126.png">
+          <img height="20px" alt="&#126;" src="https://dfuchslin.github.io/midpixels/png/126.png">
         </picture>
         0x7E<br/>
         126<br/>
@@ -975,9 +975,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/127-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/127.svg">
-          <img height="20px" alt="&#1127;" src="https://dfuchslin.github.io/midpixels/svg/127.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/127-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/127.png">
+          <img height="20px" alt="&#1127;" src="https://dfuchslin.github.io/midpixels/png/127.png">
         </picture>
         0x7F<br/>
         1127<br/>
@@ -987,9 +987,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/160-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/160.svg">
-          <img height="20px" alt="&#1160;" src="https://dfuchslin.github.io/midpixels/svg/160.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/160-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/160.png">
+          <img height="20px" alt="&#1160;" src="https://dfuchslin.github.io/midpixels/png/160.png">
         </picture>
         0xA0<br/>
         1160<br/>
@@ -997,9 +997,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/161-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/161.svg">
-          <img height="20px" alt="&#161;" src="https://dfuchslin.github.io/midpixels/svg/161.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/161-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/161.png">
+          <img height="20px" alt="&#161;" src="https://dfuchslin.github.io/midpixels/png/161.png">
         </picture>
         0xA1<br/>
         161<br/>
@@ -1007,9 +1007,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/162-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/162.svg">
-          <img height="20px" alt="&#162;" src="https://dfuchslin.github.io/midpixels/svg/162.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/162-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/162.png">
+          <img height="20px" alt="&#162;" src="https://dfuchslin.github.io/midpixels/png/162.png">
         </picture>
         0xA2<br/>
         162<br/>
@@ -1017,9 +1017,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/163-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/163.svg">
-          <img height="20px" alt="&#163;" src="https://dfuchslin.github.io/midpixels/svg/163.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/163-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/163.png">
+          <img height="20px" alt="&#163;" src="https://dfuchslin.github.io/midpixels/png/163.png">
         </picture>
         0xA3<br/>
         163<br/>
@@ -1027,9 +1027,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/164-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/164.svg">
-          <img height="20px" alt="&#164;" src="https://dfuchslin.github.io/midpixels/svg/164.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/164-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/164.png">
+          <img height="20px" alt="&#164;" src="https://dfuchslin.github.io/midpixels/png/164.png">
         </picture>
         0xA4<br/>
         164<br/>
@@ -1037,9 +1037,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/165-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/165.svg">
-          <img height="20px" alt="&#165;" src="https://dfuchslin.github.io/midpixels/svg/165.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/165-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/165.png">
+          <img height="20px" alt="&#165;" src="https://dfuchslin.github.io/midpixels/png/165.png">
         </picture>
         0xA5<br/>
         165<br/>
@@ -1047,9 +1047,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/166-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/166.svg">
-          <img height="20px" alt="&#166;" src="https://dfuchslin.github.io/midpixels/svg/166.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/166-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/166.png">
+          <img height="20px" alt="&#166;" src="https://dfuchslin.github.io/midpixels/png/166.png">
         </picture>
         0xA6<br/>
         166<br/>
@@ -1057,9 +1057,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/167-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/167.svg">
-          <img height="20px" alt="&#167;" src="https://dfuchslin.github.io/midpixels/svg/167.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/167-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/167.png">
+          <img height="20px" alt="&#167;" src="https://dfuchslin.github.io/midpixels/png/167.png">
         </picture>
         0xA7<br/>
         167<br/>
@@ -1067,9 +1067,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/168-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/168.svg">
-          <img height="20px" alt="&#168;" src="https://dfuchslin.github.io/midpixels/svg/168.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/168-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/168.png">
+          <img height="20px" alt="&#168;" src="https://dfuchslin.github.io/midpixels/png/168.png">
         </picture>
         0xA8<br/>
         168<br/>
@@ -1077,9 +1077,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/169-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/169.svg">
-          <img height="20px" alt="&#169;" src="https://dfuchslin.github.io/midpixels/svg/169.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/169-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/169.png">
+          <img height="20px" alt="&#169;" src="https://dfuchslin.github.io/midpixels/png/169.png">
         </picture>
         0xA9<br/>
         169<br/>
@@ -1087,9 +1087,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/170-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/170.svg">
-          <img height="20px" alt="&#170;" src="https://dfuchslin.github.io/midpixels/svg/170.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/170-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/170.png">
+          <img height="20px" alt="&#170;" src="https://dfuchslin.github.io/midpixels/png/170.png">
         </picture>
         0xAA<br/>
         170<br/>
@@ -1097,9 +1097,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/171-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/171.svg">
-          <img height="20px" alt="&#171;" src="https://dfuchslin.github.io/midpixels/svg/171.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/171-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/171.png">
+          <img height="20px" alt="&#171;" src="https://dfuchslin.github.io/midpixels/png/171.png">
         </picture>
         0xAB<br/>
         171<br/>
@@ -1109,9 +1109,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/172-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/172.svg">
-          <img height="20px" alt="&#172;" src="https://dfuchslin.github.io/midpixels/svg/172.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/172-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/172.png">
+          <img height="20px" alt="&#172;" src="https://dfuchslin.github.io/midpixels/png/172.png">
         </picture>
         0xAC<br/>
         172<br/>
@@ -1119,9 +1119,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/173-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/173.svg">
-          <img height="20px" alt="&#1173;" src="https://dfuchslin.github.io/midpixels/svg/173.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/173-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/173.png">
+          <img height="20px" alt="&#1173;" src="https://dfuchslin.github.io/midpixels/png/173.png">
         </picture>
         0xAD<br/>
         1173<br/>
@@ -1129,9 +1129,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/174-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/174.svg">
-          <img height="20px" alt="&#174;" src="https://dfuchslin.github.io/midpixels/svg/174.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/174-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/174.png">
+          <img height="20px" alt="&#174;" src="https://dfuchslin.github.io/midpixels/png/174.png">
         </picture>
         0xAE<br/>
         174<br/>
@@ -1139,9 +1139,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/175-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/175.svg">
-          <img height="20px" alt="&#175;" src="https://dfuchslin.github.io/midpixels/svg/175.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/175-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/175.png">
+          <img height="20px" alt="&#175;" src="https://dfuchslin.github.io/midpixels/png/175.png">
         </picture>
         0xAF<br/>
         175<br/>
@@ -1149,9 +1149,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/176-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/176.svg">
-          <img height="20px" alt="&#176;" src="https://dfuchslin.github.io/midpixels/svg/176.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/176-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/176.png">
+          <img height="20px" alt="&#176;" src="https://dfuchslin.github.io/midpixels/png/176.png">
         </picture>
         0xB0<br/>
         176<br/>
@@ -1159,9 +1159,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/177-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/177.svg">
-          <img height="20px" alt="&#177;" src="https://dfuchslin.github.io/midpixels/svg/177.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/177-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/177.png">
+          <img height="20px" alt="&#177;" src="https://dfuchslin.github.io/midpixels/png/177.png">
         </picture>
         0xB1<br/>
         177<br/>
@@ -1169,9 +1169,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/178-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/178.svg">
-          <img height="20px" alt="&#178;" src="https://dfuchslin.github.io/midpixels/svg/178.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/178-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/178.png">
+          <img height="20px" alt="&#178;" src="https://dfuchslin.github.io/midpixels/png/178.png">
         </picture>
         0xB2<br/>
         178<br/>
@@ -1179,9 +1179,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/179-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/179.svg">
-          <img height="20px" alt="&#179;" src="https://dfuchslin.github.io/midpixels/svg/179.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/179-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/179.png">
+          <img height="20px" alt="&#179;" src="https://dfuchslin.github.io/midpixels/png/179.png">
         </picture>
         0xB3<br/>
         179<br/>
@@ -1189,9 +1189,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/180-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/180.svg">
-          <img height="20px" alt="&#180;" src="https://dfuchslin.github.io/midpixels/svg/180.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/180-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/180.png">
+          <img height="20px" alt="&#180;" src="https://dfuchslin.github.io/midpixels/png/180.png">
         </picture>
         0xB4<br/>
         180<br/>
@@ -1199,9 +1199,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/181-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/181.svg">
-          <img height="20px" alt="&#181;" src="https://dfuchslin.github.io/midpixels/svg/181.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/181-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/181.png">
+          <img height="20px" alt="&#181;" src="https://dfuchslin.github.io/midpixels/png/181.png">
         </picture>
         0xB5<br/>
         181<br/>
@@ -1209,9 +1209,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/182-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/182.svg">
-          <img height="20px" alt="&#182;" src="https://dfuchslin.github.io/midpixels/svg/182.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/182-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/182.png">
+          <img height="20px" alt="&#182;" src="https://dfuchslin.github.io/midpixels/png/182.png">
         </picture>
         0xB6<br/>
         182<br/>
@@ -1219,9 +1219,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/183-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/183.svg">
-          <img height="20px" alt="&#183;" src="https://dfuchslin.github.io/midpixels/svg/183.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/183-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/183.png">
+          <img height="20px" alt="&#183;" src="https://dfuchslin.github.io/midpixels/png/183.png">
         </picture>
         0xB7<br/>
         183<br/>
@@ -1231,9 +1231,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/184-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/184.svg">
-          <img height="20px" alt="&#184;" src="https://dfuchslin.github.io/midpixels/svg/184.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/184-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/184.png">
+          <img height="20px" alt="&#184;" src="https://dfuchslin.github.io/midpixels/png/184.png">
         </picture>
         0xB8<br/>
         184<br/>
@@ -1241,9 +1241,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/185-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/185.svg">
-          <img height="20px" alt="&#185;" src="https://dfuchslin.github.io/midpixels/svg/185.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/185-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/185.png">
+          <img height="20px" alt="&#185;" src="https://dfuchslin.github.io/midpixels/png/185.png">
         </picture>
         0xB9<br/>
         185<br/>
@@ -1251,9 +1251,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/186-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/186.svg">
-          <img height="20px" alt="&#186;" src="https://dfuchslin.github.io/midpixels/svg/186.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/186-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/186.png">
+          <img height="20px" alt="&#186;" src="https://dfuchslin.github.io/midpixels/png/186.png">
         </picture>
         0xBA<br/>
         186<br/>
@@ -1261,9 +1261,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/187-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/187.svg">
-          <img height="20px" alt="&#187;" src="https://dfuchslin.github.io/midpixels/svg/187.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/187-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/187.png">
+          <img height="20px" alt="&#187;" src="https://dfuchslin.github.io/midpixels/png/187.png">
         </picture>
         0xBB<br/>
         187<br/>
@@ -1271,9 +1271,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/188-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/188.svg">
-          <img height="20px" alt="&#188;" src="https://dfuchslin.github.io/midpixels/svg/188.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/188-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/188.png">
+          <img height="20px" alt="&#188;" src="https://dfuchslin.github.io/midpixels/png/188.png">
         </picture>
         0xBC<br/>
         188<br/>
@@ -1281,9 +1281,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/189-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/189.svg">
-          <img height="20px" alt="&#189;" src="https://dfuchslin.github.io/midpixels/svg/189.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/189-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/189.png">
+          <img height="20px" alt="&#189;" src="https://dfuchslin.github.io/midpixels/png/189.png">
         </picture>
         0xBD<br/>
         189<br/>
@@ -1291,9 +1291,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/190-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/190.svg">
-          <img height="20px" alt="&#190;" src="https://dfuchslin.github.io/midpixels/svg/190.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/190-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/190.png">
+          <img height="20px" alt="&#190;" src="https://dfuchslin.github.io/midpixels/png/190.png">
         </picture>
         0xBE<br/>
         190<br/>
@@ -1301,9 +1301,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/191-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/191.svg">
-          <img height="20px" alt="&#191;" src="https://dfuchslin.github.io/midpixels/svg/191.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/191-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/191.png">
+          <img height="20px" alt="&#191;" src="https://dfuchslin.github.io/midpixels/png/191.png">
         </picture>
         0xBF<br/>
         191<br/>
@@ -1311,9 +1311,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/192-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/192.svg">
-          <img height="20px" alt="&#192;" src="https://dfuchslin.github.io/midpixels/svg/192.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/192-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/192.png">
+          <img height="20px" alt="&#192;" src="https://dfuchslin.github.io/midpixels/png/192.png">
         </picture>
         0xC0<br/>
         192<br/>
@@ -1321,9 +1321,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/193-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/193.svg">
-          <img height="20px" alt="&#193;" src="https://dfuchslin.github.io/midpixels/svg/193.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/193-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/193.png">
+          <img height="20px" alt="&#193;" src="https://dfuchslin.github.io/midpixels/png/193.png">
         </picture>
         0xC1<br/>
         193<br/>
@@ -1331,9 +1331,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/194-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/194.svg">
-          <img height="20px" alt="&#194;" src="https://dfuchslin.github.io/midpixels/svg/194.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/194-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/194.png">
+          <img height="20px" alt="&#194;" src="https://dfuchslin.github.io/midpixels/png/194.png">
         </picture>
         0xC2<br/>
         194<br/>
@@ -1341,9 +1341,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/195-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/195.svg">
-          <img height="20px" alt="&#195;" src="https://dfuchslin.github.io/midpixels/svg/195.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/195-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/195.png">
+          <img height="20px" alt="&#195;" src="https://dfuchslin.github.io/midpixels/png/195.png">
         </picture>
         0xC3<br/>
         195<br/>
@@ -1353,9 +1353,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
     <tr>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/196-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/196.svg">
-          <img height="20px" alt="&#196;" src="https://dfuchslin.github.io/midpixels/svg/196.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/196-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/196.png">
+          <img height="20px" alt="&#196;" src="https://dfuchslin.github.io/midpixels/png/196.png">
         </picture>
         0xC4<br/>
         196<br/>
@@ -1363,9 +1363,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/197-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/197.svg">
-          <img height="20px" alt="&#197;" src="https://dfuchslin.github.io/midpixels/svg/197.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/197-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/197.png">
+          <img height="20px" alt="&#197;" src="https://dfuchslin.github.io/midpixels/png/197.png">
         </picture>
         0xC5<br/>
         197<br/>
@@ -1373,9 +1373,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/198-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/198.svg">
-          <img height="20px" alt="&#198;" src="https://dfuchslin.github.io/midpixels/svg/198.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/198-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/198.png">
+          <img height="20px" alt="&#198;" src="https://dfuchslin.github.io/midpixels/png/198.png">
         </picture>
         0xC6<br/>
         198<br/>
@@ -1383,9 +1383,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/199-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/199.svg">
-          <img height="20px" alt="&#199;" src="https://dfuchslin.github.io/midpixels/svg/199.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/199-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/199.png">
+          <img height="20px" alt="&#199;" src="https://dfuchslin.github.io/midpixels/png/199.png">
         </picture>
         0xC7<br/>
         199<br/>
@@ -1393,9 +1393,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/200-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/200.svg">
-          <img height="20px" alt="&#200;" src="https://dfuchslin.github.io/midpixels/svg/200.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/200-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/200.png">
+          <img height="20px" alt="&#200;" src="https://dfuchslin.github.io/midpixels/png/200.png">
         </picture>
         0xC8<br/>
         200<br/>
@@ -1403,9 +1403,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/201-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/201.svg">
-          <img height="20px" alt="&#201;" src="https://dfuchslin.github.io/midpixels/svg/201.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/201-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/201.png">
+          <img height="20px" alt="&#201;" src="https://dfuchslin.github.io/midpixels/png/201.png">
         </picture>
         0xC9<br/>
         201<br/>
@@ -1413,9 +1413,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/202-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/202.svg">
-          <img height="20px" alt="&#202;" src="https://dfuchslin.github.io/midpixels/svg/202.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/202-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/202.png">
+          <img height="20px" alt="&#202;" src="https://dfuchslin.github.io/midpixels/png/202.png">
         </picture>
         0xCA<br/>
         202<br/>
@@ -1423,9 +1423,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/203-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/203.svg">
-          <img height="20px" alt="&#203;" src="https://dfuchslin.github.io/midpixels/svg/203.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/203-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/203.png">
+          <img height="20px" alt="&#203;" src="https://dfuchslin.github.io/midpixels/png/203.png">
         </picture>
         0xCB<br/>
         203<br/>
@@ -1433,9 +1433,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/204-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/204.svg">
-          <img height="20px" alt="&#204;" src="https://dfuchslin.github.io/midpixels/svg/204.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/204-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/204.png">
+          <img height="20px" alt="&#204;" src="https://dfuchslin.github.io/midpixels/png/204.png">
         </picture>
         0xCC<br/>
         204<br/>
@@ -1443,9 +1443,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/205-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/205.svg">
-          <img height="20px" alt="&#205;" src="https://dfuchslin.github.io/midpixels/svg/205.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/205-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/205.png">
+          <img height="20px" alt="&#205;" src="https://dfuchslin.github.io/midpixels/png/205.png">
         </picture>
         0xCD<br/>
         205<br/>
@@ -1453,9 +1453,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/206-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/206.svg">
-          <img height="20px" alt="&#206;" src="https://dfuchslin.github.io/midpixels/svg/206.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/206-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/206.png">
+          <img height="20px" alt="&#206;" src="https://dfuchslin.github.io/midpixels/png/206.png">
         </picture>
         0xCE<br/>
         206<br/>
@@ -1463,9 +1463,9 @@ A custom 5x7 pixel font comprising all the characters and symbols displayed on t
       </td>
       <td align="center">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/svg/207-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/svg/207.svg">
-          <img height="20px" alt="&#207;" src="https://dfuchslin.github.io/midpixels/svg/207.svg">
+          <source media="(prefers-color-scheme: dark)" srcset="https://dfuchslin.github.io/midpixels/png/207-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="https://dfuchslin.github.io/midpixels/png/207.png">
+          <img height="20px" alt="&#207;" src="https://dfuchslin.github.io/midpixels/png/207.png">
         </picture>
         0xCF<br/>
         207<br/>
