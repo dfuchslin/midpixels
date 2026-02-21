@@ -14,5 +14,8 @@
     "fantasticon": "^4.1.0",
     "handlebars": "^4.7.8",
     "sharp": "^0.34.5"
+  },
+  "overrides": {
+    "minimatch": "^10.2.2"
   }
 }
