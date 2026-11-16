@@ -1,5 +1,6 @@
 import fs from 'fs';
 import characters from './characters.js';
+import charactersV2 from './characters-v2.js';
 import { generateFonts, FontAssetType, OtherAssetType } from 'fantasticon';
 import Handlebars from 'handlebars';
 import sharp from 'sharp';
@@ -8,12 +9,43 @@ const padNum = (num) => {
   return String(num).padStart(3, '0');
 };
 
+const toCodepoints = (characters) => {
+  return characters.reduce((acc, cur) => {
+    acc[`${padNum(cur.id)}`] = cur.codepoint ?? cur.id;
+    return acc;
+  }, {});
+};
+
+const findDifferences = (original, updated) => {
+  return updated
+    .filter((character) => {
+      const match = original.find((o) => o.id === character.id);
+      return !match || JSON.stringify(match.pixels) !== JSON.stringify(character.pixels);
+    })
+    .map((character) => {
+      const codepoint = character.codepoint ?? character.id;
+      return {
+        codepoint,
+        hex: `0x${Number(character.id).toString(16).toUpperCase()}`,
+        sample: sample(codepoint),
+      };
+    });
+};
+
 const readConfig = async () => {
   return {
     fontName: 'midpixels',
     svgDir: 'dist/svg',
     pngDir: 'dist/png',
     destDir: 'dist',
+    v2: {
+      fontName: 'midpixels-v2',
+      svgDir: 'dist/svg-v2',
+      pngDir: 'dist/png-v2',
+      characters: charactersV2,
+      codepoints: toCodepoints(charactersV2),
+      differences: findDifferences(characters, charactersV2),
+    },
     svg: {
       template: './templates/midpixels.svg',
       templateDark: './templates/midpixels-dark.svg',
@@ -30,10 +62,7 @@ const readConfig = async () => {
       },
     },
     characters,
-    codepoints: characters.reduce((acc, cur) => {
-      acc[`${padNum(cur.id)}`] = cur.codepoint ?? cur.id;
-      return acc;
-    }, {}),
+    codepoints: toCodepoints(characters),
     charactermap: {
       template: './templates/charactermap.md',
       columns: 12,
@@ -61,6 +90,8 @@ const clean = (config) => {
   fs.rmSync(config.destDir, { force: true, recursive: true });
   fs.mkdirSync(config.svgDir, { recursive: true });
   fs.mkdirSync(config.pngDir, { recursive: true });
+  fs.mkdirSync(config.v2.svgDir, { recursive: true });
+  fs.mkdirSync(config.v2.pngDir, { recursive: true });
   fs.mkdirSync(config.destDir, { recursive: true });
 };
 
@@ -88,25 +119,25 @@ const convertSvgToPng = async (svgFilename, pngFilename) => {
         .toFile(pngFilename)
 }
 
-const templateSvg = async (config, filenameBase, template, id, desc, pixels) => {
+const templateSvg = async (config, variant, filenameBase, template, id, desc, pixels) => {
     const svg = config.svg;
-    const filename = `${config.svgDir}/${filenameBase}.svg`;
-    const filenamePng = `${config.pngDir}/${filenameBase}.png`;
+    const filename = `${variant.svgDir}/${filenameBase}.svg`;
+    const filenamePng = `${variant.pngDir}/${filenameBase}.png`;
     const outputSvg = template({svg, characters: [{id, desc, pixels}]});
     fs.writeFileSync(filename, outputSvg);
     await convertSvgToPng(filename, filenamePng);
     console.log(`   created character ${id} '${desc}' in files ${filename} and ${filenamePng}`);
 }
 
-const generateSvg = async (config) => {
-  console.log('Generating svg characters...');
+const generateSvg = async (config, variant) => {
+  console.log(`Generating svg characters for ${variant.fontName}...`);
 
   const template = Handlebars.compile(fs.readFileSync(config.svg.template).toString());
   const templateDark = Handlebars.compile(fs.readFileSync(config.svg.templateDark).toString());
 
   const characters = [];
 
-  for (const character of config.characters) {
+  for (const character of variant.characters) {
     const id = character.id;
     const desc = character.desc;
     const pixels = [];
@@ -133,14 +164,18 @@ const generateSvg = async (config) => {
     character.padded_id = padNum(id);
     characters.push(character);
 
-    await templateSvg(config, `${padNum(id)}`, template, id, desc, pixels);
-    await templateSvg(config, `${padNum(id)}-dark`, templateDark, id, desc, pixels);
+    await templateSvg(config, variant, `${padNum(id)}`, template, id, desc, pixels);
+    await templateSvg(config, variant, `${padNum(id)}-dark`, templateDark, id, desc, pixels);
   }
 
-  const filename = `${config.destDir}/${config.fontName}.svg`;
+  const filename = `${config.destDir}/${variant.fontName}.svg`;
   const svg = template({ svg: config.svg, characters });
   fs.writeFileSync(filename, svg);
   console.log(`   created combined svg in file ${filename}`);
+
+  if (variant !== config) {
+    return;
+  }
 
   const characterMapTemplate = Handlebars.compile(
     fs.readFileSync(config.charactermap.template).toString()
@@ -153,20 +188,20 @@ const generateSvg = async (config) => {
   console.log(`   created charactermap in file ${characterMapFilename}`);
 };
 
-const generateAllFonts = async (config) => {
-  console.log('Generating font...');
+const generateAllFonts = async (config, variant) => {
+  console.log(`Generating font ${variant.fontName}...`);
   await generateFonts({
-    name: 'midpixels',
-    inputDir: config.svgDir,
+    name: variant.fontName,
+    inputDir: variant.svgDir,
     outputDir: config.destDir,
     fontTypes: [FontAssetType.TTF, FontAssetType.EOT, FontAssetType.WOFF, FontAssetType.WOFF2],
     assetTypes: [OtherAssetType.CSS],
     templates: {},
     pathOptions: {},
-    codepoints: config.codepoints,
+    codepoints: variant.codepoints,
     fontHeight: 300,
-    tag: 'midpixels',
-    prefix: 'midpixels',
+    tag: variant.fontName,
+    prefix: variant.fontName,
     getIconId: ({ basename }) => basename,
   });
 };
@@ -187,8 +222,10 @@ const generatePreview = async (config) => {
 const main = async () => {
   const config = await readConfig();
   clean(config);
-  await generateSvg(config);
-  await generateAllFonts(config);
+  for (const variant of [config, config.v2]) {
+    await generateSvg(config, variant);
+    await generateAllFonts(config, variant);
+  }
   await generatePreview(config);
 };
 
