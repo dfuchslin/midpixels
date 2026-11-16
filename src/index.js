@@ -75,10 +75,22 @@ const readConfig = async () => {
         'ABCDEFGHIJKLMNOPQRSTUVWXYZ&#161;&#162;&#163;',
         'abcdefghijklmnopqrstuvwxyz&#164;&#165;&#166;',
         '!"#$%&\'()*+,-./0123456789:;&lt;=',
-        '&gt;?@[\\]^_`{|}~&#1127;&#160;&#167;&#168;&#169;&#170;&#171;&#172;&#1173;&#174;&#175;&#176;&#177;&#178;&#179;&#180;',
+        '&gt;?@[\\]^_`{|}~&#1127;&#1160;&#167;&#168;&#169;&#170;&#171;&#172;&#1173;&#174;&#175;&#176;&#177;&#178;&#179;&#180;',
         '&#181;&#182;&#183;&#184;&#185;&#186;&#187;&#188;&#189;&#190;&#191;&#192;&#193;&#194;&#195;&#196;&#197;&#198;&#199;&#200;&#201;&#202;&#203;&#204;&#205;&#206;&#207;&#32;&#32;',
       ],
       sample_background: '&#178;'.repeat(29),
+      png: {
+        columns: 29,
+        margin: { x: 43, y: 48 },
+        pixel: { width: 16, height: 19, gap: 2 },
+        characterGap: 20,
+        lineGap: 48,
+        colors: {
+          background: '#740000',
+          unlit: '#5E0000',
+          lit: '#ff7c00',
+        },
+      },
     },
   };
 };
@@ -219,9 +231,63 @@ const generatePreview = async (config) => {
   console.log(`   created preview' in file ${filename}`);
 };
 
+const decodeSample = (text) => {
+  const codepoints = [];
+  const pattern = /&#(\d+);|&lt;|&gt;|[\s\S]/g;
+  let match;
+  while ((match = pattern.exec(text))) {
+    if (match[1]) {
+      codepoints.push(Number(match[1]));
+    } else if (match[0] === '&lt;') {
+      codepoints.push(60);
+    } else if (match[0] === '&gt;') {
+      codepoints.push(62);
+    } else {
+      codepoints.push(match[0].charCodeAt(0));
+    }
+  }
+  return codepoints;
+};
+
+const generateSamplePng = async (config, variant) => {
+  const png = config.preview.png;
+  const glyphs = new Map(variant.characters.map((c) => [c.codepoint ?? c.id, c.pixels]));
+  const charWidth = 5 * png.pixel.width + 4 * png.pixel.gap;
+  const charHeight = 7 * png.pixel.height + 6 * png.pixel.gap;
+  const lines = config.preview.sample.map(decodeSample);
+  const width = 2 * png.margin.x + png.columns * charWidth + (png.columns - 1) * png.characterGap;
+  const height = 2 * png.margin.y + lines.length * charHeight + (lines.length - 1) * png.lineGap;
+
+  const rects = [];
+  lines.forEach((line, row) => {
+    for (let col = 0; col < png.columns; col++) {
+      const pixels = glyphs.get(line[col]);
+      const left = png.margin.x + col * (charWidth + png.characterGap);
+      const top = png.margin.y + row * (charHeight + png.lineGap);
+      for (let y = 0; y < 7; y++) {
+        for (let x = 0; x < 5; x++) {
+          const color = pixels?.[y][x] === 1 ? png.colors.lit : png.colors.unlit;
+          rects.push(
+            `<rect x="${left + x * (png.pixel.width + png.pixel.gap)}" y="${top + y * (png.pixel.height + png.pixel.gap)}" width="${png.pixel.width}" height="${png.pixel.height}" fill="${color}"/>`
+          );
+        }
+      }
+    }
+  });
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"><rect width="100%" height="100%" fill="${png.colors.background}"/>${rects.join('')}</svg>`;
+  const filename = `${config.destDir}/${variant.fontName}-sample.png`;
+  await sharp(Buffer.from(svg)).png().toFile(filename);
+  console.log(`   created sample png in file ${filename}`);
+};
+
 const main = async () => {
   const config = await readConfig();
   clean(config);
+  console.log('Generating sample pngs...');
+  for (const variant of [config, config.v2]) {
+    await generateSamplePng(config, variant);
+  }
   for (const variant of [config, config.v2]) {
     await generateSvg(config, variant);
     await generateAllFonts(config, variant);
